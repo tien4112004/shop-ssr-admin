@@ -1,4 +1,51 @@
 {
+  "__commonjsHelpers-87174ba5.js": {
+    "file": "js/_commonjsHelpers-87174ba5.js"
+  },
+  "_access.service-1fadb1e1.js": {
+    "file": "js/access.service-1fadb1e1.js",
+    "imports": [
+      "_custom_fetch-0093183c.js"
+    ]
+  },
+  "_apexcharts.common-7ec34e28.js": {
+    "file": "js/apexcharts.common-7ec34e28.js"
+  },
+  "_custom_fetch-0093183c.js": {
+    "file": "js/custom_fetch-0093183c.js"
+  },
+  "_feather-25aa8cd3.js": {
+    "file": "js/feather-25aa8cd3.js",
+    "imports": [
+      "__commonjsHelpers-87174ba5.js"
+    ]
+  },
+  "_quill-7d65cff1.js": {
+    "file": "js/quill-7d65cff1.js",
+    "imports": [
+      "__commonjsHelpers-87174ba5.js"
+    ]
+  },
+  "_tailwind.config-61846369.js": {
+    "file": "js/tailwind.config-61846369.js",
+    "imports": [
+      "_toNumber-7df5ba1e.js",
+      "__commonjsHelpers-87174ba5.js"
+    ]
+  },
+  "_toNumber-7df5ba1e.js": {
+    "file": "js/toNumber-7df5ba1e.js",
+    "imports": [
+      "__commonjsHelpers-87174ba5.js"
+    ]
+  },
+  "_toast-4e5fa046.js": {
+    "file": "js/toast-4e5fa046.js",
+    "imports": [
+      "__commonjsHelpers-87174ba5.js",
+      "_feather-25aa8cd3.js"
+    ]
+  },
   "css/app.css": {
     "file": "css/app.css",
     "isEntry": true,
@@ -37,14 +84,168 @@
     "src": "fonts/tabler-icons.woff2"
   },
   "js/app.js": {
-    "file": "js/app-a37d5dd2.js",
+    "file": "js/app-62d7aaa2.js",
+    "imports": [
+      "_feather-25aa8cd3.js",
+      "_toNumber-7df5ba1e.js",
+      "_quill-7d65cff1.js",
+      "__commonjsHelpers-87174ba5.js"
+    ],
     "isEntry": true,
     "src": "js/app.js"
   },
+  "js/custom/alert.js": {
+    "file": "js/alert-f3079728.js",
+    "isEntry": true,
+    "src": "js/custom/alert.js"
+  },
+  "js/custom/analytics.js": {
+    "file": "js/analytics-872de4b6.js",
+    "imports": [
+      "_tailwind.config-61846369.js",
+      "_apexcharts.common-7ec34e28.js",
+      "__commonjsHelpers-87174ba5.js",
+      "_toNumber-7df5ba1e.js"
+    ],
+    "isEntry": true,
+    "src": "js/custom/analytics.js"
+  },
+  "js/custom/apex-charts.js": {
+    "file": "js/apex-charts-09fd7770.js",
+    "imports": [
+      "_tailwind.config-61846369.js",
+      "_apexcharts.common-7ec34e28.js",
+      "_toNumber-7df5ba1e.js",
+      "__commonjsHelpers-87174ba5.js"
+    ],
+    "isEntry": true,
+    "src": "js/custom/apex-charts.js"
+  },
+  "js/custom/calendar.js": {
+    "file": "js/calendar-5d85233d.js",
+    "imports": [
+      "_tailwind.config-61846369.js",
+      "_toNumber-7df5ba1e.js",
+      "__commonjsHelpers-87174ba5.js"
+    ],
+    "isEntry": true,
+    "src": "js/custom/calendar.js"
+  },
+  "js/custom/carousel.js": {
+    "file": "js/carousel-786eef02.js",
+    "isEntry": true,
+    "src": "js/custom/carousel.js"
+  },
+  "js/custom/chat.js": {
+    "file": "js/chat-c44adb47.js",
+    "isEntry": true,
+    "src": "js/custom/chat.js"
+  },
+  "js/custom/data-table.js": {
+    "file": "js/data-table-f97a08f4.js",
+    "isEntry": true,
+    "src": "js/custom/data-table.js"
+  },
+  "js/custom/datepicker.js": {
+    "file": "js/datepicker-6d82fddd.js",
+    "isEntry": true,
+    "src": "js/custom/datepicker.js"
+  },
+  "js/custom/drawer.js": {
+    "file": "js/drawer-9b02f37e.js",
+    "isEntry": true,
+    "src": "js/custom/drawer.js"
+  },
+  "js/custom/ecommerce.js": {
+    "file": "js/ecommerce-9d04b7ea.js",
+    "imports": [
+      "_apexcharts.common-7ec34e28.js",
+      "_tailwind.config-61846369.js",
+      "_toNumber-7df5ba1e.js",
+      "__commonjsHelpers-87174ba5.js"
+    ],
+    "isEntry": true,
+    "src": "js/custom/ecommerce.js"
+  },
+  "js/custom/editor.js": {
+    "file": "js/editor-52ebf3a4.js",
+    "isEntry": true,
+    "src": "js/custom/editor.js"
+  },
+  "js/custom/email.js": {
+    "file": "js/email-9bdb1dea.js",
+    "imports": [
+      "_quill-7d65cff1.js",
+      "__commonjsHelpers-87174ba5.js"
+    ],
+    "isEntry": true,
+    "src": "js/custom/email.js"
+  },
+  "js/custom/form-validation.js": {
+    "file": "js/form-validation-c21f1aad.js",
+    "isEntry": true,
+    "src": "js/custom/form-validation.js"
+  },
+  "js/custom/invoice-create.js": {
+    "file": "js/invoice-create-90c43b7e.js",
+    "imports": [
+      "_feather-25aa8cd3.js",
+      "__commonjsHelpers-87174ba5.js"
+    ],
+    "isEntry": true,
+    "src": "js/custom/invoice-create.js"
+  },
+  "js/custom/modal.js": {
+    "file": "js/modal-6d0ea4d2.js",
+    "isEntry": true,
+    "src": "js/custom/modal.js"
+  },
+  "js/custom/toast.js": {
+    "file": "js/toast-1b244ccd.js",
+    "imports": [
+      "_toast-4e5fa046.js",
+      "__commonjsHelpers-87174ba5.js",
+      "_feather-25aa8cd3.js"
+    ],
+    "isEntry": true,
+    "src": "js/custom/toast.js"
+  },
+  "js/custom/uploader.js": {
+    "file": "js/uploader-f96527d0.js",
+    "isEntry": true,
+    "src": "js/custom/uploader.js"
+  },
   "js/header.js": {
-    "file": "js/header-f348449d.js",
+    "file": "js/header-5b04642a.js",
+    "imports": [
+      "_access.service-1fadb1e1.js",
+      "_custom_fetch-0093183c.js"
+    ],
     "isEntry": true,
     "src": "js/header.js"
+  },
+  "js/pages/login.js": {
+    "file": "js/login-df0cc85a.js",
+    "imports": [
+      "_toast-4e5fa046.js",
+      "_access.service-1fadb1e1.js",
+      "__commonjsHelpers-87174ba5.js",
+      "_feather-25aa8cd3.js",
+      "_custom_fetch-0093183c.js"
+    ],
+    "isEntry": true,
+    "src": "js/pages/login.js"
+  },
+  "js/pages/user-list.js": {
+    "file": "js/user-list-341fd708.js",
+    "imports": [
+      "_toast-4e5fa046.js",
+      "_custom_fetch-0093183c.js",
+      "__commonjsHelpers-87174ba5.js",
+      "_feather-25aa8cd3.js"
+    ],
+    "isEntry": true,
+    "src": "js/pages/user-list.js"
   },
   "svg/ac.svg": {
     "file": "svg/ac.svg",

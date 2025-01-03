@@ -4,7 +4,7 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import listPlugin from '@fullcalendar/list';
 import colors from 'tailwindcss/colors';
-import { themeColors } from 'tailwind.config';
+import { themeColors } from '@tailwind.config';
 
 const date = new Date();
 const calendarEl = document.querySelector('#calendar');

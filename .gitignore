@@ -1,4 +1,5 @@
 .env
+server/public/assets
 
 # Logs
 logs
