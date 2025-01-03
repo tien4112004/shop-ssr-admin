@@ -1,36 +1,63 @@
-import express from "express";
+import express from 'express';
 const app = express();
 
-import dotenv from "dotenv";
+import path from 'path';
+import fs from 'fs';
+import dotenv from 'dotenv';
 dotenv.config();
-import cors from "cors";
-import path from "path";
-import morgan from "morgan";
+import cors from 'cors';
+import morgan from 'morgan';
 
-import expressLayouts from "express-ejs-layouts";
+import expressLayouts from 'express-ejs-layouts';
 
-import "express-async-errors";
+import 'express-async-errors';
 
 // import middlewares and routes
-import router from "./apps/routes.js";
+import router from './apps/routes.js';
+
+const isDev = !!process.argv.find((v) => v === 'NODE_ENV=development');
 
 // middlewares
-app.use(morgan("dev"));
+app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());
 
 // static files
-app.use(express.static(path.join(import.meta.dirname, "public")));
-app.use("/static", express.static("public"));
+app.use('/assets', express.static(path.join(import.meta.dirname, 'public/assets')));
+app.use('/', express.static(path.join(import.meta.dirname, 'public')));
 
 // set the view engine to ejs
-app.set("view engine", "ejs");
-app.set("views", path.join(import.meta.dirname, "views"));
+app.set('view engine', 'ejs');
+app.set('views', path.join(import.meta.dirname, 'views'));
+app.set('layout', 'layouts/default');
 app.use(expressLayouts);
-app.set("layout", "components/layout");
+
+let manifest = {};
+if (!isDev) {
+  try {
+    manifest = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, 'public/assets/manifest.json'), 'utf-8'));
+  } catch (err) {
+    console.log(err);
+    console.error('No manifest file found');
+  }
+}
+
+// Helper function to get asset URLs
+function getAssetUrl(filename) {
+  if (isDev) {
+    return `http://localhost:5173/${filename}`;
+  }
+  return `/assets/${manifest[filename].file}`;
+}
+
+app.use((req, res, next) => {
+  res.locals.getAssetUrl = getAssetUrl;
+  res.locals.isDev = isDev;
+  next();
+});
 
 // routes
-app.use("/", router);
+app.use('/', router);
 
 
 // start server

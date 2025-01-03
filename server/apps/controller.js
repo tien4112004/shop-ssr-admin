@@ -4,6 +4,10 @@ export default {
     res.render('pages/index');
   },
 
+  getLogin: (req, res) => {
+    res.render('pages/login', { layout: false });
+  },
+
   getUserList: (req, res) => {
     res.render('pages/user-list');
   },
@@ -13,10 +17,11 @@ export default {
   },
 
   getNotFound: (req, res) => {
-    res.render('pages/404-error');
+    res.render('pages/404-error', { layout: false });
   },
 
   getServerError: (err, req, res, next) => {
-    res.render('pages/500-error');
+    res.render('pages/500-error', { layout: false });
   },
+
 }

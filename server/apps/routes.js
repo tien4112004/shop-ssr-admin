@@ -8,6 +8,11 @@ router.get(
 );
 
 router.get(
+  '/login',
+  controller.getLogin
+);
+
+router.get(
   '/user-list',
   controller.getUserList
 );
@@ -17,9 +22,14 @@ router.get(
   controller.getAdminProfile
 );
 
-// error handler
-router.use("*", controller.getNotFound);
+router.get(
+  '*',
+  controller.getNotFound
+);
 
-router.use(controller.getServerError);
+router.use(
+  controller.getServerError
+);
+
 
 export default router;

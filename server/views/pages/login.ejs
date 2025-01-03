@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logo-small.svg" type="image/svg+xml" />
+    <title>Document</title>
+    <meta
+      name="description"
+      content="Admin Toolkit is a modern admin dashboard template based on Tailwindcss. It comes with a variety of useful ui components and pre-built pages"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="<%= getAssetUrl('css/app.css') %>" />
+    <script>
+      if (
+        localStorage.getItem('theme') === 'dark' ||
+        (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="app" class="flex min-h-screen w-full items-center justify-center">
+      <!-- Main Content Starts -->
+      <main class="container flex-grow p-4 sm:p-6">
+        <div class="card mx-auto w-full max-w-md">
+          <div class="card-body px-10 py-12">
+            <div class="flex flex-col items-center justify-center">
+              <img src="./images/logo-small.svg" alt="logo" class="h-[50px]" />
+              <h5 class="mt-4">Welcome Back</h5>
+              <p class="text-sm text-slate-500 dark:text-slate-400">Please enter your details</p>
+            </div>
+
+            <div class="mt-6 flex flex-col gap-5">
+              <!-- Email -->
+              <div>
+                <label class="label mb-1">Username</label>
+                <input type="text" class="username input" placeholder="Enter Your Email" />
+              </div>
+              <!-- Password-->
+              <div class="">
+                <label class="label mb-1">Password</label>
+                <input type="password" class="password input" placeholder="Password" />
+              </div>
+            </div>
+            <!-- Remember & Forgot-->
+            <div class="mt-2 flex items-center justify-between">
+              <div class="flex items-center gap-1.5">
+                <input
+                  type="checkbox"
+                  class="h-4 w-4 rounded border-slate-300 bg-transparent text-primary-500 shadow-sm transition-all duration-150 checked:hover:shadow-none focus:ring-0 focus:ring-offset-0 enabled:hover:shadow disabled:cursor-not-allowed disabled:opacity-50 dark:border-slate-600"
+                  id="remember-me"
+                />
+                <label for="remember-me" class="label">Remember Me</label>
+              </div>
+              <a href="#" class="text-sm text-primary-500 hover:underline">Forgot Password</a>
+            </div>
+            <!-- Login Button -->
+            <div class="mt-8">
+              <button id="login" class="btn btn-primary w-full py-2.5">Login</button>
+              <div class="relative mt-4 flex h-6 items-center justify-center py-4">
+                <div class="h-[1px] w-full bg-slate-200 dark:bg-slate-600"></div>
+                <div class="t absolute w-10 bg-white text-center text-xs text-slate-400 dark:bg-slate-800">Or</div>
+              </div>
+            </div>
+            <!-- Don't Have An Account -->
+            <div class="mt-4 flex justify-center">
+              <p class="text-sm text-slate-600 dark:text-slate-300">
+                Don't Have an Account?
+                <a href="./register" class="text-sm text-primary-500 hover:underline">Sign up</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- Main Content Ends -->
+    </div>
+
+    <script type="module" src="<%= getAssetUrl('js/pages/login.js') %>"></script>
+
+  </body>
+</html>

@@ -1,0 +1,2173 @@
+{
+  "css/app.css": {
+    "file": "css/app.css",
+    "isEntry": true,
+    "src": "css/app.css"
+  },
+  "fonts/boxicons.eot": {
+    "file": "fonts/boxicons.eot",
+    "src": "fonts/boxicons.eot"
+  },
+  "fonts/boxicons.ttf": {
+    "file": "fonts/boxicons.ttf",
+    "src": "fonts/boxicons.ttf"
+  },
+  "fonts/boxicons.woff": {
+    "file": "fonts/boxicons.woff",
+    "src": "fonts/boxicons.woff"
+  },
+  "fonts/boxicons.woff2": {
+    "file": "fonts/boxicons.woff2",
+    "src": "fonts/boxicons.woff2"
+  },
+  "fonts/tabler-icons.eot": {
+    "file": "fonts/tabler-icons.eot",
+    "src": "fonts/tabler-icons.eot"
+  },
+  "fonts/tabler-icons.ttf": {
+    "file": "fonts/tabler-icons.ttf",
+    "src": "fonts/tabler-icons.ttf"
+  },
+  "fonts/tabler-icons.woff": {
+    "file": "fonts/tabler-icons.woff",
+    "src": "fonts/tabler-icons.woff"
+  },
+  "fonts/tabler-icons.woff2": {
+    "file": "fonts/tabler-icons.woff2",
+    "src": "fonts/tabler-icons.woff2"
+  },
+  "js/app.js": {
+    "file": "js/app-a37d5dd2.js",
+    "isEntry": true,
+    "src": "js/app.js"
+  },
+  "js/header.js": {
+    "file": "js/header-f348449d.js",
+    "isEntry": true,
+    "src": "js/header.js"
+  },
+  "svg/ac.svg": {
+    "file": "svg/ac.svg",
+    "src": "svg/ac.svg"
+  },
+  "svg/ac2.svg": {
+    "file": "svg/ac2.svg",
+    "src": "svg/ac2.svg"
+  },
+  "svg/ad.svg": {
+    "file": "svg/ad.svg",
+    "src": "svg/ad.svg"
+  },
+  "svg/ad2.svg": {
+    "file": "svg/ad2.svg",
+    "src": "svg/ad2.svg"
+  },
+  "svg/ae.svg": {
+    "file": "svg/ae.svg",
+    "src": "svg/ae.svg"
+  },
+  "svg/ae2.svg": {
+    "file": "svg/ae2.svg",
+    "src": "svg/ae2.svg"
+  },
+  "svg/af.svg": {
+    "file": "svg/af.svg",
+    "src": "svg/af.svg"
+  },
+  "svg/af2.svg": {
+    "file": "svg/af2.svg",
+    "src": "svg/af2.svg"
+  },
+  "svg/ag.svg": {
+    "file": "svg/ag.svg",
+    "src": "svg/ag.svg"
+  },
+  "svg/ag2.svg": {
+    "file": "svg/ag2.svg",
+    "src": "svg/ag2.svg"
+  },
+  "svg/ai.svg": {
+    "file": "svg/ai.svg",
+    "src": "svg/ai.svg"
+  },
+  "svg/ai2.svg": {
+    "file": "svg/ai2.svg",
+    "src": "svg/ai2.svg"
+  },
+  "svg/al.svg": {
+    "file": "svg/al.svg",
+    "src": "svg/al.svg"
+  },
+  "svg/al2.svg": {
+    "file": "svg/al2.svg",
+    "src": "svg/al2.svg"
+  },
+  "svg/am.svg": {
+    "file": "svg/am.svg",
+    "src": "svg/am.svg"
+  },
+  "svg/am2.svg": {
+    "file": "svg/am2.svg",
+    "src": "svg/am2.svg"
+  },
+  "svg/ao.svg": {
+    "file": "svg/ao.svg",
+    "src": "svg/ao.svg"
+  },
+  "svg/ao2.svg": {
+    "file": "svg/ao2.svg",
+    "src": "svg/ao2.svg"
+  },
+  "svg/aq.svg": {
+    "file": "svg/aq.svg",
+    "src": "svg/aq.svg"
+  },
+  "svg/aq2.svg": {
+    "file": "svg/aq2.svg",
+    "src": "svg/aq2.svg"
+  },
+  "svg/ar.svg": {
+    "file": "svg/ar.svg",
+    "src": "svg/ar.svg"
+  },
+  "svg/ar2.svg": {
+    "file": "svg/ar2.svg",
+    "src": "svg/ar2.svg"
+  },
+  "svg/as.svg": {
+    "file": "svg/as.svg",
+    "src": "svg/as.svg"
+  },
+  "svg/as2.svg": {
+    "file": "svg/as2.svg",
+    "src": "svg/as2.svg"
+  },
+  "svg/at.svg": {
+    "file": "svg/at.svg",
+    "src": "svg/at.svg"
+  },
+  "svg/at2.svg": {
+    "file": "svg/at2.svg",
+    "src": "svg/at2.svg"
+  },
+  "svg/au.svg": {
+    "file": "svg/au.svg",
+    "src": "svg/au.svg"
+  },
+  "svg/au2.svg": {
+    "file": "svg/au2.svg",
+    "src": "svg/au2.svg"
+  },
+  "svg/aw.svg": {
+    "file": "svg/aw.svg",
+    "src": "svg/aw.svg"
+  },
+  "svg/aw2.svg": {
+    "file": "svg/aw2.svg",
+    "src": "svg/aw2.svg"
+  },
+  "svg/ax.svg": {
+    "file": "svg/ax.svg",
+    "src": "svg/ax.svg"
+  },
+  "svg/ax2.svg": {
+    "file": "svg/ax2.svg",
+    "src": "svg/ax2.svg"
+  },
+  "svg/az.svg": {
+    "file": "svg/az.svg",
+    "src": "svg/az.svg"
+  },
+  "svg/az2.svg": {
+    "file": "svg/az2.svg",
+    "src": "svg/az2.svg"
+  },
+  "svg/ba.svg": {
+    "file": "svg/ba.svg",
+    "src": "svg/ba.svg"
+  },
+  "svg/ba2.svg": {
+    "file": "svg/ba2.svg",
+    "src": "svg/ba2.svg"
+  },
+  "svg/bb.svg": {
+    "file": "svg/bb.svg",
+    "src": "svg/bb.svg"
+  },
+  "svg/bb2.svg": {
+    "file": "svg/bb2.svg",
+    "src": "svg/bb2.svg"
+  },
+  "svg/bd.svg": {
+    "file": "svg/bd.svg",
+    "src": "svg/bd.svg"
+  },
+  "svg/bd2.svg": {
+    "file": "svg/bd2.svg",
+    "src": "svg/bd2.svg"
+  },
+  "svg/be.svg": {
+    "file": "svg/be.svg",
+    "src": "svg/be.svg"
+  },
+  "svg/be2.svg": {
+    "file": "svg/be2.svg",
+    "src": "svg/be2.svg"
+  },
+  "svg/bf.svg": {
+    "file": "svg/bf.svg",
+    "src": "svg/bf.svg"
+  },
+  "svg/bf2.svg": {
+    "file": "svg/bf2.svg",
+    "src": "svg/bf2.svg"
+  },
+  "svg/bg.svg": {
+    "file": "svg/bg.svg",
+    "src": "svg/bg.svg"
+  },
+  "svg/bg2.svg": {
+    "file": "svg/bg2.svg",
+    "src": "svg/bg2.svg"
+  },
+  "svg/bh.svg": {
+    "file": "svg/bh.svg",
+    "src": "svg/bh.svg"
+  },
+  "svg/bh2.svg": {
+    "file": "svg/bh2.svg",
+    "src": "svg/bh2.svg"
+  },
+  "svg/bi.svg": {
+    "file": "svg/bi.svg",
+    "src": "svg/bi.svg"
+  },
+  "svg/bi2.svg": {
+    "file": "svg/bi2.svg",
+    "src": "svg/bi2.svg"
+  },
+  "svg/bj.svg": {
+    "file": "svg/bj.svg",
+    "src": "svg/bj.svg"
+  },
+  "svg/bj2.svg": {
+    "file": "svg/bj2.svg",
+    "src": "svg/bj2.svg"
+  },
+  "svg/bl.svg": {
+    "file": "svg/bl.svg",
+    "src": "svg/bl.svg"
+  },
+  "svg/bl2.svg": {
+    "file": "svg/bl2.svg",
+    "src": "svg/bl2.svg"
+  },
+  "svg/bm.svg": {
+    "file": "svg/bm.svg",
+    "src": "svg/bm.svg"
+  },
+  "svg/bm2.svg": {
+    "file": "svg/bm2.svg",
+    "src": "svg/bm2.svg"
+  },
+  "svg/bn.svg": {
+    "file": "svg/bn.svg",
+    "src": "svg/bn.svg"
+  },
+  "svg/bn2.svg": {
+    "file": "svg/bn2.svg",
+    "src": "svg/bn2.svg"
+  },
+  "svg/bo.svg": {
+    "file": "svg/bo.svg",
+    "src": "svg/bo.svg"
+  },
+  "svg/bo2.svg": {
+    "file": "svg/bo2.svg",
+    "src": "svg/bo2.svg"
+  },
+  "svg/boxicons.svg": {
+    "file": "svg/boxicons.svg",
+    "src": "svg/boxicons.svg"
+  },
+  "svg/bq.svg": {
+    "file": "svg/bq.svg",
+    "src": "svg/bq.svg"
+  },
+  "svg/bq2.svg": {
+    "file": "svg/bq2.svg",
+    "src": "svg/bq2.svg"
+  },
+  "svg/br.svg": {
+    "file": "svg/br.svg",
+    "src": "svg/br.svg"
+  },
+  "svg/br2.svg": {
+    "file": "svg/br2.svg",
+    "src": "svg/br2.svg"
+  },
+  "svg/bs.svg": {
+    "file": "svg/bs.svg",
+    "src": "svg/bs.svg"
+  },
+  "svg/bs2.svg": {
+    "file": "svg/bs2.svg",
+    "src": "svg/bs2.svg"
+  },
+  "svg/bt.svg": {
+    "file": "svg/bt.svg",
+    "src": "svg/bt.svg"
+  },
+  "svg/bt2.svg": {
+    "file": "svg/bt2.svg",
+    "src": "svg/bt2.svg"
+  },
+  "svg/bv.svg": {
+    "file": "svg/bv.svg",
+    "src": "svg/bv.svg"
+  },
+  "svg/bv2.svg": {
+    "file": "svg/bv2.svg",
+    "src": "svg/bv2.svg"
+  },
+  "svg/bw.svg": {
+    "file": "svg/bw.svg",
+    "src": "svg/bw.svg"
+  },
+  "svg/bw2.svg": {
+    "file": "svg/bw2.svg",
+    "src": "svg/bw2.svg"
+  },
+  "svg/by.svg": {
+    "file": "svg/by.svg",
+    "src": "svg/by.svg"
+  },
+  "svg/by2.svg": {
+    "file": "svg/by2.svg",
+    "src": "svg/by2.svg"
+  },
+  "svg/bz.svg": {
+    "file": "svg/bz.svg",
+    "src": "svg/bz.svg"
+  },
+  "svg/bz2.svg": {
+    "file": "svg/bz2.svg",
+    "src": "svg/bz2.svg"
+  },
+  "svg/ca.svg": {
+    "file": "svg/ca.svg",
+    "src": "svg/ca.svg"
+  },
+  "svg/ca2.svg": {
+    "file": "svg/ca2.svg",
+    "src": "svg/ca2.svg"
+  },
+  "svg/cc.svg": {
+    "file": "svg/cc.svg",
+    "src": "svg/cc.svg"
+  },
+  "svg/cc2.svg": {
+    "file": "svg/cc2.svg",
+    "src": "svg/cc2.svg"
+  },
+  "svg/cd.svg": {
+    "file": "svg/cd.svg",
+    "src": "svg/cd.svg"
+  },
+  "svg/cd2.svg": {
+    "file": "svg/cd2.svg",
+    "src": "svg/cd2.svg"
+  },
+  "svg/cf.svg": {
+    "file": "svg/cf.svg",
+    "src": "svg/cf.svg"
+  },
+  "svg/cf2.svg": {
+    "file": "svg/cf2.svg",
+    "src": "svg/cf2.svg"
+  },
+  "svg/cg.svg": {
+    "file": "svg/cg.svg",
+    "src": "svg/cg.svg"
+  },
+  "svg/cg2.svg": {
+    "file": "svg/cg2.svg",
+    "src": "svg/cg2.svg"
+  },
+  "svg/ch.svg": {
+    "file": "svg/ch.svg",
+    "src": "svg/ch.svg"
+  },
+  "svg/ch2.svg": {
+    "file": "svg/ch2.svg",
+    "src": "svg/ch2.svg"
+  },
+  "svg/ci.svg": {
+    "file": "svg/ci.svg",
+    "src": "svg/ci.svg"
+  },
+  "svg/ci2.svg": {
+    "file": "svg/ci2.svg",
+    "src": "svg/ci2.svg"
+  },
+  "svg/ck.svg": {
+    "file": "svg/ck.svg",
+    "src": "svg/ck.svg"
+  },
+  "svg/ck2.svg": {
+    "file": "svg/ck2.svg",
+    "src": "svg/ck2.svg"
+  },
+  "svg/cl.svg": {
+    "file": "svg/cl.svg",
+    "src": "svg/cl.svg"
+  },
+  "svg/cl2.svg": {
+    "file": "svg/cl2.svg",
+    "src": "svg/cl2.svg"
+  },
+  "svg/cm.svg": {
+    "file": "svg/cm.svg",
+    "src": "svg/cm.svg"
+  },
+  "svg/cm2.svg": {
+    "file": "svg/cm2.svg",
+    "src": "svg/cm2.svg"
+  },
+  "svg/cn.svg": {
+    "file": "svg/cn.svg",
+    "src": "svg/cn.svg"
+  },
+  "svg/cn2.svg": {
+    "file": "svg/cn2.svg",
+    "src": "svg/cn2.svg"
+  },
+  "svg/co.svg": {
+    "file": "svg/co.svg",
+    "src": "svg/co.svg"
+  },
+  "svg/co2.svg": {
+    "file": "svg/co2.svg",
+    "src": "svg/co2.svg"
+  },
+  "svg/cp.svg": {
+    "file": "svg/cp.svg",
+    "src": "svg/cp.svg"
+  },
+  "svg/cp2.svg": {
+    "file": "svg/cp2.svg",
+    "src": "svg/cp2.svg"
+  },
+  "svg/cr.svg": {
+    "file": "svg/cr.svg",
+    "src": "svg/cr.svg"
+  },
+  "svg/cr2.svg": {
+    "file": "svg/cr2.svg",
+    "src": "svg/cr2.svg"
+  },
+  "svg/cu.svg": {
+    "file": "svg/cu.svg",
+    "src": "svg/cu.svg"
+  },
+  "svg/cu2.svg": {
+    "file": "svg/cu2.svg",
+    "src": "svg/cu2.svg"
+  },
+  "svg/cv.svg": {
+    "file": "svg/cv.svg",
+    "src": "svg/cv.svg"
+  },
+  "svg/cv2.svg": {
+    "file": "svg/cv2.svg",
+    "src": "svg/cv2.svg"
+  },
+  "svg/cw.svg": {
+    "file": "svg/cw.svg",
+    "src": "svg/cw.svg"
+  },
+  "svg/cw2.svg": {
+    "file": "svg/cw2.svg",
+    "src": "svg/cw2.svg"
+  },
+  "svg/cx.svg": {
+    "file": "svg/cx.svg",
+    "src": "svg/cx.svg"
+  },
+  "svg/cx2.svg": {
+    "file": "svg/cx2.svg",
+    "src": "svg/cx2.svg"
+  },
+  "svg/cy.svg": {
+    "file": "svg/cy.svg",
+    "src": "svg/cy.svg"
+  },
+  "svg/cy2.svg": {
+    "file": "svg/cy2.svg",
+    "src": "svg/cy2.svg"
+  },
+  "svg/cz.svg": {
+    "file": "svg/cz.svg",
+    "src": "svg/cz.svg"
+  },
+  "svg/cz2.svg": {
+    "file": "svg/cz2.svg",
+    "src": "svg/cz2.svg"
+  },
+  "svg/de.svg": {
+    "file": "svg/de.svg",
+    "src": "svg/de.svg"
+  },
+  "svg/de2.svg": {
+    "file": "svg/de2.svg",
+    "src": "svg/de2.svg"
+  },
+  "svg/dg.svg": {
+    "file": "svg/dg.svg",
+    "src": "svg/dg.svg"
+  },
+  "svg/dg2.svg": {
+    "file": "svg/dg2.svg",
+    "src": "svg/dg2.svg"
+  },
+  "svg/dj.svg": {
+    "file": "svg/dj.svg",
+    "src": "svg/dj.svg"
+  },
+  "svg/dj2.svg": {
+    "file": "svg/dj2.svg",
+    "src": "svg/dj2.svg"
+  },
+  "svg/dk.svg": {
+    "file": "svg/dk.svg",
+    "src": "svg/dk.svg"
+  },
+  "svg/dk2.svg": {
+    "file": "svg/dk2.svg",
+    "src": "svg/dk2.svg"
+  },
+  "svg/dm.svg": {
+    "file": "svg/dm.svg",
+    "src": "svg/dm.svg"
+  },
+  "svg/dm2.svg": {
+    "file": "svg/dm2.svg",
+    "src": "svg/dm2.svg"
+  },
+  "svg/do.svg": {
+    "file": "svg/do.svg",
+    "src": "svg/do.svg"
+  },
+  "svg/do2.svg": {
+    "file": "svg/do2.svg",
+    "src": "svg/do2.svg"
+  },
+  "svg/dz.svg": {
+    "file": "svg/dz.svg",
+    "src": "svg/dz.svg"
+  },
+  "svg/dz2.svg": {
+    "file": "svg/dz2.svg",
+    "src": "svg/dz2.svg"
+  },
+  "svg/ea.svg": {
+    "file": "svg/ea.svg",
+    "src": "svg/ea.svg"
+  },
+  "svg/ea2.svg": {
+    "file": "svg/ea2.svg",
+    "src": "svg/ea2.svg"
+  },
+  "svg/ec.svg": {
+    "file": "svg/ec.svg",
+    "src": "svg/ec.svg"
+  },
+  "svg/ec2.svg": {
+    "file": "svg/ec2.svg",
+    "src": "svg/ec2.svg"
+  },
+  "svg/ee.svg": {
+    "file": "svg/ee.svg",
+    "src": "svg/ee.svg"
+  },
+  "svg/ee2.svg": {
+    "file": "svg/ee2.svg",
+    "src": "svg/ee2.svg"
+  },
+  "svg/eg.svg": {
+    "file": "svg/eg.svg",
+    "src": "svg/eg.svg"
+  },
+  "svg/eg2.svg": {
+    "file": "svg/eg2.svg",
+    "src": "svg/eg2.svg"
+  },
+  "svg/eh.svg": {
+    "file": "svg/eh.svg",
+    "src": "svg/eh.svg"
+  },
+  "svg/eh2.svg": {
+    "file": "svg/eh2.svg",
+    "src": "svg/eh2.svg"
+  },
+  "svg/er.svg": {
+    "file": "svg/er.svg",
+    "src": "svg/er.svg"
+  },
+  "svg/er2.svg": {
+    "file": "svg/er2.svg",
+    "src": "svg/er2.svg"
+  },
+  "svg/es-ct.svg": {
+    "file": "svg/es-ct.svg",
+    "src": "svg/es-ct.svg"
+  },
+  "svg/es-ct2.svg": {
+    "file": "svg/es-ct2.svg",
+    "src": "svg/es-ct2.svg"
+  },
+  "svg/es-ga.svg": {
+    "file": "svg/es-ga.svg",
+    "src": "svg/es-ga.svg"
+  },
+  "svg/es-ga2.svg": {
+    "file": "svg/es-ga2.svg",
+    "src": "svg/es-ga2.svg"
+  },
+  "svg/es.svg": {
+    "file": "svg/es.svg",
+    "src": "svg/es.svg"
+  },
+  "svg/es2.svg": {
+    "file": "svg/es2.svg",
+    "src": "svg/es2.svg"
+  },
+  "svg/et.svg": {
+    "file": "svg/et.svg",
+    "src": "svg/et.svg"
+  },
+  "svg/et2.svg": {
+    "file": "svg/et2.svg",
+    "src": "svg/et2.svg"
+  },
+  "svg/eu.svg": {
+    "file": "svg/eu.svg",
+    "src": "svg/eu.svg"
+  },
+  "svg/eu2.svg": {
+    "file": "svg/eu2.svg",
+    "src": "svg/eu2.svg"
+  },
+  "svg/fi.svg": {
+    "file": "svg/fi.svg",
+    "src": "svg/fi.svg"
+  },
+  "svg/fi2.svg": {
+    "file": "svg/fi2.svg",
+    "src": "svg/fi2.svg"
+  },
+  "svg/fj.svg": {
+    "file": "svg/fj.svg",
+    "src": "svg/fj.svg"
+  },
+  "svg/fj2.svg": {
+    "file": "svg/fj2.svg",
+    "src": "svg/fj2.svg"
+  },
+  "svg/fk.svg": {
+    "file": "svg/fk.svg",
+    "src": "svg/fk.svg"
+  },
+  "svg/fk2.svg": {
+    "file": "svg/fk2.svg",
+    "src": "svg/fk2.svg"
+  },
+  "svg/fm.svg": {
+    "file": "svg/fm.svg",
+    "src": "svg/fm.svg"
+  },
+  "svg/fm2.svg": {
+    "file": "svg/fm2.svg",
+    "src": "svg/fm2.svg"
+  },
+  "svg/fo.svg": {
+    "file": "svg/fo.svg",
+    "src": "svg/fo.svg"
+  },
+  "svg/fo2.svg": {
+    "file": "svg/fo2.svg",
+    "src": "svg/fo2.svg"
+  },
+  "svg/fr.svg": {
+    "file": "svg/fr.svg",
+    "src": "svg/fr.svg"
+  },
+  "svg/fr2.svg": {
+    "file": "svg/fr2.svg",
+    "src": "svg/fr2.svg"
+  },
+  "svg/ga.svg": {
+    "file": "svg/ga.svg",
+    "src": "svg/ga.svg"
+  },
+  "svg/ga2.svg": {
+    "file": "svg/ga2.svg",
+    "src": "svg/ga2.svg"
+  },
+  "svg/gb-eng.svg": {
+    "file": "svg/gb-eng.svg",
+    "src": "svg/gb-eng.svg"
+  },
+  "svg/gb-eng2.svg": {
+    "file": "svg/gb-eng2.svg",
+    "src": "svg/gb-eng2.svg"
+  },
+  "svg/gb-nir.svg": {
+    "file": "svg/gb-nir.svg",
+    "src": "svg/gb-nir.svg"
+  },
+  "svg/gb-nir2.svg": {
+    "file": "svg/gb-nir2.svg",
+    "src": "svg/gb-nir2.svg"
+  },
+  "svg/gb-sct.svg": {
+    "file": "svg/gb-sct.svg",
+    "src": "svg/gb-sct.svg"
+  },
+  "svg/gb-sct2.svg": {
+    "file": "svg/gb-sct2.svg",
+    "src": "svg/gb-sct2.svg"
+  },
+  "svg/gb-wls.svg": {
+    "file": "svg/gb-wls.svg",
+    "src": "svg/gb-wls.svg"
+  },
+  "svg/gb-wls2.svg": {
+    "file": "svg/gb-wls2.svg",
+    "src": "svg/gb-wls2.svg"
+  },
+  "svg/gb.svg": {
+    "file": "svg/gb.svg",
+    "src": "svg/gb.svg"
+  },
+  "svg/gb2.svg": {
+    "file": "svg/gb2.svg",
+    "src": "svg/gb2.svg"
+  },
+  "svg/gd.svg": {
+    "file": "svg/gd.svg",
+    "src": "svg/gd.svg"
+  },
+  "svg/gd2.svg": {
+    "file": "svg/gd2.svg",
+    "src": "svg/gd2.svg"
+  },
+  "svg/ge.svg": {
+    "file": "svg/ge.svg",
+    "src": "svg/ge.svg"
+  },
+  "svg/ge2.svg": {
+    "file": "svg/ge2.svg",
+    "src": "svg/ge2.svg"
+  },
+  "svg/gf.svg": {
+    "file": "svg/gf.svg",
+    "src": "svg/gf.svg"
+  },
+  "svg/gf2.svg": {
+    "file": "svg/gf2.svg",
+    "src": "svg/gf2.svg"
+  },
+  "svg/gg.svg": {
+    "file": "svg/gg.svg",
+    "src": "svg/gg.svg"
+  },
+  "svg/gg2.svg": {
+    "file": "svg/gg2.svg",
+    "src": "svg/gg2.svg"
+  },
+  "svg/gh.svg": {
+    "file": "svg/gh.svg",
+    "src": "svg/gh.svg"
+  },
+  "svg/gh2.svg": {
+    "file": "svg/gh2.svg",
+    "src": "svg/gh2.svg"
+  },
+  "svg/gi.svg": {
+    "file": "svg/gi.svg",
+    "src": "svg/gi.svg"
+  },
+  "svg/gi2.svg": {
+    "file": "svg/gi2.svg",
+    "src": "svg/gi2.svg"
+  },
+  "svg/gl.svg": {
+    "file": "svg/gl.svg",
+    "src": "svg/gl.svg"
+  },
+  "svg/gl2.svg": {
+    "file": "svg/gl2.svg",
+    "src": "svg/gl2.svg"
+  },
+  "svg/gm.svg": {
+    "file": "svg/gm.svg",
+    "src": "svg/gm.svg"
+  },
+  "svg/gm2.svg": {
+    "file": "svg/gm2.svg",
+    "src": "svg/gm2.svg"
+  },
+  "svg/gn.svg": {
+    "file": "svg/gn.svg",
+    "src": "svg/gn.svg"
+  },
+  "svg/gn2.svg": {
+    "file": "svg/gn2.svg",
+    "src": "svg/gn2.svg"
+  },
+  "svg/gp.svg": {
+    "file": "svg/gp.svg",
+    "src": "svg/gp.svg"
+  },
+  "svg/gp2.svg": {
+    "file": "svg/gp2.svg",
+    "src": "svg/gp2.svg"
+  },
+  "svg/gq.svg": {
+    "file": "svg/gq.svg",
+    "src": "svg/gq.svg"
+  },
+  "svg/gq2.svg": {
+    "file": "svg/gq2.svg",
+    "src": "svg/gq2.svg"
+  },
+  "svg/gr.svg": {
+    "file": "svg/gr.svg",
+    "src": "svg/gr.svg"
+  },
+  "svg/gr2.svg": {
+    "file": "svg/gr2.svg",
+    "src": "svg/gr2.svg"
+  },
+  "svg/gs.svg": {
+    "file": "svg/gs.svg",
+    "src": "svg/gs.svg"
+  },
+  "svg/gs2.svg": {
+    "file": "svg/gs2.svg",
+    "src": "svg/gs2.svg"
+  },
+  "svg/gt.svg": {
+    "file": "svg/gt.svg",
+    "src": "svg/gt.svg"
+  },
+  "svg/gt2.svg": {
+    "file": "svg/gt2.svg",
+    "src": "svg/gt2.svg"
+  },
+  "svg/gu.svg": {
+    "file": "svg/gu.svg",
+    "src": "svg/gu.svg"
+  },
+  "svg/gu2.svg": {
+    "file": "svg/gu2.svg",
+    "src": "svg/gu2.svg"
+  },
+  "svg/gw.svg": {
+    "file": "svg/gw.svg",
+    "src": "svg/gw.svg"
+  },
+  "svg/gw2.svg": {
+    "file": "svg/gw2.svg",
+    "src": "svg/gw2.svg"
+  },
+  "svg/gy.svg": {
+    "file": "svg/gy.svg",
+    "src": "svg/gy.svg"
+  },
+  "svg/gy2.svg": {
+    "file": "svg/gy2.svg",
+    "src": "svg/gy2.svg"
+  },
+  "svg/hk.svg": {
+    "file": "svg/hk.svg",
+    "src": "svg/hk.svg"
+  },
+  "svg/hk2.svg": {
+    "file": "svg/hk2.svg",
+    "src": "svg/hk2.svg"
+  },
+  "svg/hm.svg": {
+    "file": "svg/hm.svg",
+    "src": "svg/hm.svg"
+  },
+  "svg/hm2.svg": {
+    "file": "svg/hm2.svg",
+    "src": "svg/hm2.svg"
+  },
+  "svg/hn.svg": {
+    "file": "svg/hn.svg",
+    "src": "svg/hn.svg"
+  },
+  "svg/hn2.svg": {
+    "file": "svg/hn2.svg",
+    "src": "svg/hn2.svg"
+  },
+  "svg/hr.svg": {
+    "file": "svg/hr.svg",
+    "src": "svg/hr.svg"
+  },
+  "svg/hr2.svg": {
+    "file": "svg/hr2.svg",
+    "src": "svg/hr2.svg"
+  },
+  "svg/ht.svg": {
+    "file": "svg/ht.svg",
+    "src": "svg/ht.svg"
+  },
+  "svg/ht2.svg": {
+    "file": "svg/ht2.svg",
+    "src": "svg/ht2.svg"
+  },
+  "svg/hu.svg": {
+    "file": "svg/hu.svg",
+    "src": "svg/hu.svg"
+  },
+  "svg/hu2.svg": {
+    "file": "svg/hu2.svg",
+    "src": "svg/hu2.svg"
+  },
+  "svg/ic.svg": {
+    "file": "svg/ic.svg",
+    "src": "svg/ic.svg"
+  },
+  "svg/ic2.svg": {
+    "file": "svg/ic2.svg",
+    "src": "svg/ic2.svg"
+  },
+  "svg/id.svg": {
+    "file": "svg/id.svg",
+    "src": "svg/id.svg"
+  },
+  "svg/id2.svg": {
+    "file": "svg/id2.svg",
+    "src": "svg/id2.svg"
+  },
+  "svg/ie.svg": {
+    "file": "svg/ie.svg",
+    "src": "svg/ie.svg"
+  },
+  "svg/ie2.svg": {
+    "file": "svg/ie2.svg",
+    "src": "svg/ie2.svg"
+  },
+  "svg/il.svg": {
+    "file": "svg/il.svg",
+    "src": "svg/il.svg"
+  },
+  "svg/il2.svg": {
+    "file": "svg/il2.svg",
+    "src": "svg/il2.svg"
+  },
+  "svg/im.svg": {
+    "file": "svg/im.svg",
+    "src": "svg/im.svg"
+  },
+  "svg/im2.svg": {
+    "file": "svg/im2.svg",
+    "src": "svg/im2.svg"
+  },
+  "svg/in.svg": {
+    "file": "svg/in.svg",
+    "src": "svg/in.svg"
+  },
+  "svg/in2.svg": {
+    "file": "svg/in2.svg",
+    "src": "svg/in2.svg"
+  },
+  "svg/io.svg": {
+    "file": "svg/io.svg",
+    "src": "svg/io.svg"
+  },
+  "svg/io2.svg": {
+    "file": "svg/io2.svg",
+    "src": "svg/io2.svg"
+  },
+  "svg/iq.svg": {
+    "file": "svg/iq.svg",
+    "src": "svg/iq.svg"
+  },
+  "svg/iq2.svg": {
+    "file": "svg/iq2.svg",
+    "src": "svg/iq2.svg"
+  },
+  "svg/ir.svg": {
+    "file": "svg/ir.svg",
+    "src": "svg/ir.svg"
+  },
+  "svg/ir2.svg": {
+    "file": "svg/ir2.svg",
+    "src": "svg/ir2.svg"
+  },
+  "svg/is.svg": {
+    "file": "svg/is.svg",
+    "src": "svg/is.svg"
+  },
+  "svg/is2.svg": {
+    "file": "svg/is2.svg",
+    "src": "svg/is2.svg"
+  },
+  "svg/it.svg": {
+    "file": "svg/it.svg",
+    "src": "svg/it.svg"
+  },
+  "svg/it2.svg": {
+    "file": "svg/it2.svg",
+    "src": "svg/it2.svg"
+  },
+  "svg/je.svg": {
+    "file": "svg/je.svg",
+    "src": "svg/je.svg"
+  },
+  "svg/je2.svg": {
+    "file": "svg/je2.svg",
+    "src": "svg/je2.svg"
+  },
+  "svg/jm.svg": {
+    "file": "svg/jm.svg",
+    "src": "svg/jm.svg"
+  },
+  "svg/jm2.svg": {
+    "file": "svg/jm2.svg",
+    "src": "svg/jm2.svg"
+  },
+  "svg/jo.svg": {
+    "file": "svg/jo.svg",
+    "src": "svg/jo.svg"
+  },
+  "svg/jo2.svg": {
+    "file": "svg/jo2.svg",
+    "src": "svg/jo2.svg"
+  },
+  "svg/jp.svg": {
+    "file": "svg/jp.svg",
+    "src": "svg/jp.svg"
+  },
+  "svg/jp2.svg": {
+    "file": "svg/jp2.svg",
+    "src": "svg/jp2.svg"
+  },
+  "svg/ke.svg": {
+    "file": "svg/ke.svg",
+    "src": "svg/ke.svg"
+  },
+  "svg/ke2.svg": {
+    "file": "svg/ke2.svg",
+    "src": "svg/ke2.svg"
+  },
+  "svg/kg.svg": {
+    "file": "svg/kg.svg",
+    "src": "svg/kg.svg"
+  },
+  "svg/kg2.svg": {
+    "file": "svg/kg2.svg",
+    "src": "svg/kg2.svg"
+  },
+  "svg/kh.svg": {
+    "file": "svg/kh.svg",
+    "src": "svg/kh.svg"
+  },
+  "svg/kh2.svg": {
+    "file": "svg/kh2.svg",
+    "src": "svg/kh2.svg"
+  },
+  "svg/ki.svg": {
+    "file": "svg/ki.svg",
+    "src": "svg/ki.svg"
+  },
+  "svg/ki2.svg": {
+    "file": "svg/ki2.svg",
+    "src": "svg/ki2.svg"
+  },
+  "svg/km.svg": {
+    "file": "svg/km.svg",
+    "src": "svg/km.svg"
+  },
+  "svg/km2.svg": {
+    "file": "svg/km2.svg",
+    "src": "svg/km2.svg"
+  },
+  "svg/kn.svg": {
+    "file": "svg/kn.svg",
+    "src": "svg/kn.svg"
+  },
+  "svg/kn2.svg": {
+    "file": "svg/kn2.svg",
+    "src": "svg/kn2.svg"
+  },
+  "svg/kp.svg": {
+    "file": "svg/kp.svg",
+    "src": "svg/kp.svg"
+  },
+  "svg/kp2.svg": {
+    "file": "svg/kp2.svg",
+    "src": "svg/kp2.svg"
+  },
+  "svg/kr.svg": {
+    "file": "svg/kr.svg",
+    "src": "svg/kr.svg"
+  },
+  "svg/kr2.svg": {
+    "file": "svg/kr2.svg",
+    "src": "svg/kr2.svg"
+  },
+  "svg/kw.svg": {
+    "file": "svg/kw.svg",
+    "src": "svg/kw.svg"
+  },
+  "svg/kw2.svg": {
+    "file": "svg/kw2.svg",
+    "src": "svg/kw2.svg"
+  },
+  "svg/ky.svg": {
+    "file": "svg/ky.svg",
+    "src": "svg/ky.svg"
+  },
+  "svg/ky2.svg": {
+    "file": "svg/ky2.svg",
+    "src": "svg/ky2.svg"
+  },
+  "svg/kz.svg": {
+    "file": "svg/kz.svg",
+    "src": "svg/kz.svg"
+  },
+  "svg/kz2.svg": {
+    "file": "svg/kz2.svg",
+    "src": "svg/kz2.svg"
+  },
+  "svg/la.svg": {
+    "file": "svg/la.svg",
+    "src": "svg/la.svg"
+  },
+  "svg/la2.svg": {
+    "file": "svg/la2.svg",
+    "src": "svg/la2.svg"
+  },
+  "svg/lb.svg": {
+    "file": "svg/lb.svg",
+    "src": "svg/lb.svg"
+  },
+  "svg/lb2.svg": {
+    "file": "svg/lb2.svg",
+    "src": "svg/lb2.svg"
+  },
+  "svg/lc.svg": {
+    "file": "svg/lc.svg",
+    "src": "svg/lc.svg"
+  },
+  "svg/lc2.svg": {
+    "file": "svg/lc2.svg",
+    "src": "svg/lc2.svg"
+  },
+  "svg/li.svg": {
+    "file": "svg/li.svg",
+    "src": "svg/li.svg"
+  },
+  "svg/li2.svg": {
+    "file": "svg/li2.svg",
+    "src": "svg/li2.svg"
+  },
+  "svg/lk.svg": {
+    "file": "svg/lk.svg",
+    "src": "svg/lk.svg"
+  },
+  "svg/lk2.svg": {
+    "file": "svg/lk2.svg",
+    "src": "svg/lk2.svg"
+  },
+  "svg/lr.svg": {
+    "file": "svg/lr.svg",
+    "src": "svg/lr.svg"
+  },
+  "svg/lr2.svg": {
+    "file": "svg/lr2.svg",
+    "src": "svg/lr2.svg"
+  },
+  "svg/ls.svg": {
+    "file": "svg/ls.svg",
+    "src": "svg/ls.svg"
+  },
+  "svg/ls2.svg": {
+    "file": "svg/ls2.svg",
+    "src": "svg/ls2.svg"
+  },
+  "svg/lt.svg": {
+    "file": "svg/lt.svg",
+    "src": "svg/lt.svg"
+  },
+  "svg/lt2.svg": {
+    "file": "svg/lt2.svg",
+    "src": "svg/lt2.svg"
+  },
+  "svg/lu.svg": {
+    "file": "svg/lu.svg",
+    "src": "svg/lu.svg"
+  },
+  "svg/lu2.svg": {
+    "file": "svg/lu2.svg",
+    "src": "svg/lu2.svg"
+  },
+  "svg/lv.svg": {
+    "file": "svg/lv.svg",
+    "src": "svg/lv.svg"
+  },
+  "svg/lv2.svg": {
+    "file": "svg/lv2.svg",
+    "src": "svg/lv2.svg"
+  },
+  "svg/ly.svg": {
+    "file": "svg/ly.svg",
+    "src": "svg/ly.svg"
+  },
+  "svg/ly2.svg": {
+    "file": "svg/ly2.svg",
+    "src": "svg/ly2.svg"
+  },
+  "svg/ma.svg": {
+    "file": "svg/ma.svg",
+    "src": "svg/ma.svg"
+  },
+  "svg/ma2.svg": {
+    "file": "svg/ma2.svg",
+    "src": "svg/ma2.svg"
+  },
+  "svg/mc.svg": {
+    "file": "svg/mc.svg",
+    "src": "svg/mc.svg"
+  },
+  "svg/mc2.svg": {
+    "file": "svg/mc2.svg",
+    "src": "svg/mc2.svg"
+  },
+  "svg/md.svg": {
+    "file": "svg/md.svg",
+    "src": "svg/md.svg"
+  },
+  "svg/md2.svg": {
+    "file": "svg/md2.svg",
+    "src": "svg/md2.svg"
+  },
+  "svg/me.svg": {
+    "file": "svg/me.svg",
+    "src": "svg/me.svg"
+  },
+  "svg/me2.svg": {
+    "file": "svg/me2.svg",
+    "src": "svg/me2.svg"
+  },
+  "svg/mf.svg": {
+    "file": "svg/mf.svg",
+    "src": "svg/mf.svg"
+  },
+  "svg/mf2.svg": {
+    "file": "svg/mf2.svg",
+    "src": "svg/mf2.svg"
+  },
+  "svg/mg.svg": {
+    "file": "svg/mg.svg",
+    "src": "svg/mg.svg"
+  },
+  "svg/mg2.svg": {
+    "file": "svg/mg2.svg",
+    "src": "svg/mg2.svg"
+  },
+  "svg/mh.svg": {
+    "file": "svg/mh.svg",
+    "src": "svg/mh.svg"
+  },
+  "svg/mh2.svg": {
+    "file": "svg/mh2.svg",
+    "src": "svg/mh2.svg"
+  },
+  "svg/mk.svg": {
+    "file": "svg/mk.svg",
+    "src": "svg/mk.svg"
+  },
+  "svg/mk2.svg": {
+    "file": "svg/mk2.svg",
+    "src": "svg/mk2.svg"
+  },
+  "svg/ml.svg": {
+    "file": "svg/ml.svg",
+    "src": "svg/ml.svg"
+  },
+  "svg/ml2.svg": {
+    "file": "svg/ml2.svg",
+    "src": "svg/ml2.svg"
+  },
+  "svg/mm.svg": {
+    "file": "svg/mm.svg",
+    "src": "svg/mm.svg"
+  },
+  "svg/mm2.svg": {
+    "file": "svg/mm2.svg",
+    "src": "svg/mm2.svg"
+  },
+  "svg/mn.svg": {
+    "file": "svg/mn.svg",
+    "src": "svg/mn.svg"
+  },
+  "svg/mn2.svg": {
+    "file": "svg/mn2.svg",
+    "src": "svg/mn2.svg"
+  },
+  "svg/mo.svg": {
+    "file": "svg/mo.svg",
+    "src": "svg/mo.svg"
+  },
+  "svg/mo2.svg": {
+    "file": "svg/mo2.svg",
+    "src": "svg/mo2.svg"
+  },
+  "svg/mp.svg": {
+    "file": "svg/mp.svg",
+    "src": "svg/mp.svg"
+  },
+  "svg/mp2.svg": {
+    "file": "svg/mp2.svg",
+    "src": "svg/mp2.svg"
+  },
+  "svg/mq.svg": {
+    "file": "svg/mq.svg",
+    "src": "svg/mq.svg"
+  },
+  "svg/mq2.svg": {
+    "file": "svg/mq2.svg",
+    "src": "svg/mq2.svg"
+  },
+  "svg/mr.svg": {
+    "file": "svg/mr.svg",
+    "src": "svg/mr.svg"
+  },
+  "svg/mr2.svg": {
+    "file": "svg/mr2.svg",
+    "src": "svg/mr2.svg"
+  },
+  "svg/ms.svg": {
+    "file": "svg/ms.svg",
+    "src": "svg/ms.svg"
+  },
+  "svg/ms2.svg": {
+    "file": "svg/ms2.svg",
+    "src": "svg/ms2.svg"
+  },
+  "svg/mt.svg": {
+    "file": "svg/mt.svg",
+    "src": "svg/mt.svg"
+  },
+  "svg/mt2.svg": {
+    "file": "svg/mt2.svg",
+    "src": "svg/mt2.svg"
+  },
+  "svg/mu.svg": {
+    "file": "svg/mu.svg",
+    "src": "svg/mu.svg"
+  },
+  "svg/mu2.svg": {
+    "file": "svg/mu2.svg",
+    "src": "svg/mu2.svg"
+  },
+  "svg/mv.svg": {
+    "file": "svg/mv.svg",
+    "src": "svg/mv.svg"
+  },
+  "svg/mv2.svg": {
+    "file": "svg/mv2.svg",
+    "src": "svg/mv2.svg"
+  },
+  "svg/mw.svg": {
+    "file": "svg/mw.svg",
+    "src": "svg/mw.svg"
+  },
+  "svg/mw2.svg": {
+    "file": "svg/mw2.svg",
+    "src": "svg/mw2.svg"
+  },
+  "svg/mx.svg": {
+    "file": "svg/mx.svg",
+    "src": "svg/mx.svg"
+  },
+  "svg/mx2.svg": {
+    "file": "svg/mx2.svg",
+    "src": "svg/mx2.svg"
+  },
+  "svg/my.svg": {
+    "file": "svg/my.svg",
+    "src": "svg/my.svg"
+  },
+  "svg/my2.svg": {
+    "file": "svg/my2.svg",
+    "src": "svg/my2.svg"
+  },
+  "svg/mz.svg": {
+    "file": "svg/mz.svg",
+    "src": "svg/mz.svg"
+  },
+  "svg/mz2.svg": {
+    "file": "svg/mz2.svg",
+    "src": "svg/mz2.svg"
+  },
+  "svg/na.svg": {
+    "file": "svg/na.svg",
+    "src": "svg/na.svg"
+  },
+  "svg/na2.svg": {
+    "file": "svg/na2.svg",
+    "src": "svg/na2.svg"
+  },
+  "svg/nc.svg": {
+    "file": "svg/nc.svg",
+    "src": "svg/nc.svg"
+  },
+  "svg/nc2.svg": {
+    "file": "svg/nc2.svg",
+    "src": "svg/nc2.svg"
+  },
+  "svg/ne.svg": {
+    "file": "svg/ne.svg",
+    "src": "svg/ne.svg"
+  },
+  "svg/ne2.svg": {
+    "file": "svg/ne2.svg",
+    "src": "svg/ne2.svg"
+  },
+  "svg/nf.svg": {
+    "file": "svg/nf.svg",
+    "src": "svg/nf.svg"
+  },
+  "svg/nf2.svg": {
+    "file": "svg/nf2.svg",
+    "src": "svg/nf2.svg"
+  },
+  "svg/ng.svg": {
+    "file": "svg/ng.svg",
+    "src": "svg/ng.svg"
+  },
+  "svg/ng2.svg": {
+    "file": "svg/ng2.svg",
+    "src": "svg/ng2.svg"
+  },
+  "svg/ni.svg": {
+    "file": "svg/ni.svg",
+    "src": "svg/ni.svg"
+  },
+  "svg/ni2.svg": {
+    "file": "svg/ni2.svg",
+    "src": "svg/ni2.svg"
+  },
+  "svg/nl.svg": {
+    "file": "svg/nl.svg",
+    "src": "svg/nl.svg"
+  },
+  "svg/nl2.svg": {
+    "file": "svg/nl2.svg",
+    "src": "svg/nl2.svg"
+  },
+  "svg/no.svg": {
+    "file": "svg/no.svg",
+    "src": "svg/no.svg"
+  },
+  "svg/no2.svg": {
+    "file": "svg/no2.svg",
+    "src": "svg/no2.svg"
+  },
+  "svg/np.svg": {
+    "file": "svg/np.svg",
+    "src": "svg/np.svg"
+  },
+  "svg/np2.svg": {
+    "file": "svg/np2.svg",
+    "src": "svg/np2.svg"
+  },
+  "svg/nr.svg": {
+    "file": "svg/nr.svg",
+    "src": "svg/nr.svg"
+  },
+  "svg/nr2.svg": {
+    "file": "svg/nr2.svg",
+    "src": "svg/nr2.svg"
+  },
+  "svg/nu.svg": {
+    "file": "svg/nu.svg",
+    "src": "svg/nu.svg"
+  },
+  "svg/nu2.svg": {
+    "file": "svg/nu2.svg",
+    "src": "svg/nu2.svg"
+  },
+  "svg/nz.svg": {
+    "file": "svg/nz.svg",
+    "src": "svg/nz.svg"
+  },
+  "svg/nz2.svg": {
+    "file": "svg/nz2.svg",
+    "src": "svg/nz2.svg"
+  },
+  "svg/om.svg": {
+    "file": "svg/om.svg",
+    "src": "svg/om.svg"
+  },
+  "svg/om2.svg": {
+    "file": "svg/om2.svg",
+    "src": "svg/om2.svg"
+  },
+  "svg/pa.svg": {
+    "file": "svg/pa.svg",
+    "src": "svg/pa.svg"
+  },
+  "svg/pa2.svg": {
+    "file": "svg/pa2.svg",
+    "src": "svg/pa2.svg"
+  },
+  "svg/pe.svg": {
+    "file": "svg/pe.svg",
+    "src": "svg/pe.svg"
+  },
+  "svg/pe2.svg": {
+    "file": "svg/pe2.svg",
+    "src": "svg/pe2.svg"
+  },
+  "svg/pf.svg": {
+    "file": "svg/pf.svg",
+    "src": "svg/pf.svg"
+  },
+  "svg/pf2.svg": {
+    "file": "svg/pf2.svg",
+    "src": "svg/pf2.svg"
+  },
+  "svg/pg.svg": {
+    "file": "svg/pg.svg",
+    "src": "svg/pg.svg"
+  },
+  "svg/pg2.svg": {
+    "file": "svg/pg2.svg",
+    "src": "svg/pg2.svg"
+  },
+  "svg/ph.svg": {
+    "file": "svg/ph.svg",
+    "src": "svg/ph.svg"
+  },
+  "svg/ph2.svg": {
+    "file": "svg/ph2.svg",
+    "src": "svg/ph2.svg"
+  },
+  "svg/pk.svg": {
+    "file": "svg/pk.svg",
+    "src": "svg/pk.svg"
+  },
+  "svg/pk2.svg": {
+    "file": "svg/pk2.svg",
+    "src": "svg/pk2.svg"
+  },
+  "svg/pl.svg": {
+    "file": "svg/pl.svg",
+    "src": "svg/pl.svg"
+  },
+  "svg/pl2.svg": {
+    "file": "svg/pl2.svg",
+    "src": "svg/pl2.svg"
+  },
+  "svg/pm.svg": {
+    "file": "svg/pm.svg",
+    "src": "svg/pm.svg"
+  },
+  "svg/pm2.svg": {
+    "file": "svg/pm2.svg",
+    "src": "svg/pm2.svg"
+  },
+  "svg/pn.svg": {
+    "file": "svg/pn.svg",
+    "src": "svg/pn.svg"
+  },
+  "svg/pn2.svg": {
+    "file": "svg/pn2.svg",
+    "src": "svg/pn2.svg"
+  },
+  "svg/pr.svg": {
+    "file": "svg/pr.svg",
+    "src": "svg/pr.svg"
+  },
+  "svg/pr2.svg": {
+    "file": "svg/pr2.svg",
+    "src": "svg/pr2.svg"
+  },
+  "svg/ps.svg": {
+    "file": "svg/ps.svg",
+    "src": "svg/ps.svg"
+  },
+  "svg/ps2.svg": {
+    "file": "svg/ps2.svg",
+    "src": "svg/ps2.svg"
+  },
+  "svg/pt.svg": {
+    "file": "svg/pt.svg",
+    "src": "svg/pt.svg"
+  },
+  "svg/pt2.svg": {
+    "file": "svg/pt2.svg",
+    "src": "svg/pt2.svg"
+  },
+  "svg/pw.svg": {
+    "file": "svg/pw.svg",
+    "src": "svg/pw.svg"
+  },
+  "svg/pw2.svg": {
+    "file": "svg/pw2.svg",
+    "src": "svg/pw2.svg"
+  },
+  "svg/py.svg": {
+    "file": "svg/py.svg",
+    "src": "svg/py.svg"
+  },
+  "svg/py2.svg": {
+    "file": "svg/py2.svg",
+    "src": "svg/py2.svg"
+  },
+  "svg/qa.svg": {
+    "file": "svg/qa.svg",
+    "src": "svg/qa.svg"
+  },
+  "svg/qa2.svg": {
+    "file": "svg/qa2.svg",
+    "src": "svg/qa2.svg"
+  },
+  "svg/re.svg": {
+    "file": "svg/re.svg",
+    "src": "svg/re.svg"
+  },
+  "svg/re2.svg": {
+    "file": "svg/re2.svg",
+    "src": "svg/re2.svg"
+  },
+  "svg/ro.svg": {
+    "file": "svg/ro.svg",
+    "src": "svg/ro.svg"
+  },
+  "svg/ro2.svg": {
+    "file": "svg/ro2.svg",
+    "src": "svg/ro2.svg"
+  },
+  "svg/rs.svg": {
+    "file": "svg/rs.svg",
+    "src": "svg/rs.svg"
+  },
+  "svg/rs2.svg": {
+    "file": "svg/rs2.svg",
+    "src": "svg/rs2.svg"
+  },
+  "svg/ru.svg": {
+    "file": "svg/ru.svg",
+    "src": "svg/ru.svg"
+  },
+  "svg/ru2.svg": {
+    "file": "svg/ru2.svg",
+    "src": "svg/ru2.svg"
+  },
+  "svg/rw.svg": {
+    "file": "svg/rw.svg",
+    "src": "svg/rw.svg"
+  },
+  "svg/rw2.svg": {
+    "file": "svg/rw2.svg",
+    "src": "svg/rw2.svg"
+  },
+  "svg/sa.svg": {
+    "file": "svg/sa.svg",
+    "src": "svg/sa.svg"
+  },
+  "svg/sa2.svg": {
+    "file": "svg/sa2.svg",
+    "src": "svg/sa2.svg"
+  },
+  "svg/sb.svg": {
+    "file": "svg/sb.svg",
+    "src": "svg/sb.svg"
+  },
+  "svg/sb2.svg": {
+    "file": "svg/sb2.svg",
+    "src": "svg/sb2.svg"
+  },
+  "svg/sc.svg": {
+    "file": "svg/sc.svg",
+    "src": "svg/sc.svg"
+  },
+  "svg/sc2.svg": {
+    "file": "svg/sc2.svg",
+    "src": "svg/sc2.svg"
+  },
+  "svg/sd.svg": {
+    "file": "svg/sd.svg",
+    "src": "svg/sd.svg"
+  },
+  "svg/sd2.svg": {
+    "file": "svg/sd2.svg",
+    "src": "svg/sd2.svg"
+  },
+  "svg/se.svg": {
+    "file": "svg/se.svg",
+    "src": "svg/se.svg"
+  },
+  "svg/se2.svg": {
+    "file": "svg/se2.svg",
+    "src": "svg/se2.svg"
+  },
+  "svg/sg.svg": {
+    "file": "svg/sg.svg",
+    "src": "svg/sg.svg"
+  },
+  "svg/sg2.svg": {
+    "file": "svg/sg2.svg",
+    "src": "svg/sg2.svg"
+  },
+  "svg/sh.svg": {
+    "file": "svg/sh.svg",
+    "src": "svg/sh.svg"
+  },
+  "svg/sh2.svg": {
+    "file": "svg/sh2.svg",
+    "src": "svg/sh2.svg"
+  },
+  "svg/si.svg": {
+    "file": "svg/si.svg",
+    "src": "svg/si.svg"
+  },
+  "svg/si2.svg": {
+    "file": "svg/si2.svg",
+    "src": "svg/si2.svg"
+  },
+  "svg/sj.svg": {
+    "file": "svg/sj.svg",
+    "src": "svg/sj.svg"
+  },
+  "svg/sj2.svg": {
+    "file": "svg/sj2.svg",
+    "src": "svg/sj2.svg"
+  },
+  "svg/sk.svg": {
+    "file": "svg/sk.svg",
+    "src": "svg/sk.svg"
+  },
+  "svg/sk2.svg": {
+    "file": "svg/sk2.svg",
+    "src": "svg/sk2.svg"
+  },
+  "svg/sl.svg": {
+    "file": "svg/sl.svg",
+    "src": "svg/sl.svg"
+  },
+  "svg/sl2.svg": {
+    "file": "svg/sl2.svg",
+    "src": "svg/sl2.svg"
+  },
+  "svg/sm.svg": {
+    "file": "svg/sm.svg",
+    "src": "svg/sm.svg"
+  },
+  "svg/sm2.svg": {
+    "file": "svg/sm2.svg",
+    "src": "svg/sm2.svg"
+  },
+  "svg/sn.svg": {
+    "file": "svg/sn.svg",
+    "src": "svg/sn.svg"
+  },
+  "svg/sn2.svg": {
+    "file": "svg/sn2.svg",
+    "src": "svg/sn2.svg"
+  },
+  "svg/so.svg": {
+    "file": "svg/so.svg",
+    "src": "svg/so.svg"
+  },
+  "svg/so2.svg": {
+    "file": "svg/so2.svg",
+    "src": "svg/so2.svg"
+  },
+  "svg/sr.svg": {
+    "file": "svg/sr.svg",
+    "src": "svg/sr.svg"
+  },
+  "svg/sr2.svg": {
+    "file": "svg/sr2.svg",
+    "src": "svg/sr2.svg"
+  },
+  "svg/ss.svg": {
+    "file": "svg/ss.svg",
+    "src": "svg/ss.svg"
+  },
+  "svg/ss2.svg": {
+    "file": "svg/ss2.svg",
+    "src": "svg/ss2.svg"
+  },
+  "svg/st.svg": {
+    "file": "svg/st.svg",
+    "src": "svg/st.svg"
+  },
+  "svg/st2.svg": {
+    "file": "svg/st2.svg",
+    "src": "svg/st2.svg"
+  },
+  "svg/sv.svg": {
+    "file": "svg/sv.svg",
+    "src": "svg/sv.svg"
+  },
+  "svg/sv2.svg": {
+    "file": "svg/sv2.svg",
+    "src": "svg/sv2.svg"
+  },
+  "svg/sx.svg": {
+    "file": "svg/sx.svg",
+    "src": "svg/sx.svg"
+  },
+  "svg/sx2.svg": {
+    "file": "svg/sx2.svg",
+    "src": "svg/sx2.svg"
+  },
+  "svg/sy.svg": {
+    "file": "svg/sy.svg",
+    "src": "svg/sy.svg"
+  },
+  "svg/sy2.svg": {
+    "file": "svg/sy2.svg",
+    "src": "svg/sy2.svg"
+  },
+  "svg/sz.svg": {
+    "file": "svg/sz.svg",
+    "src": "svg/sz.svg"
+  },
+  "svg/sz2.svg": {
+    "file": "svg/sz2.svg",
+    "src": "svg/sz2.svg"
+  },
+  "svg/ta.svg": {
+    "file": "svg/ta.svg",
+    "src": "svg/ta.svg"
+  },
+  "svg/ta2.svg": {
+    "file": "svg/ta2.svg",
+    "src": "svg/ta2.svg"
+  },
+  "svg/tc.svg": {
+    "file": "svg/tc.svg",
+    "src": "svg/tc.svg"
+  },
+  "svg/tc2.svg": {
+    "file": "svg/tc2.svg",
+    "src": "svg/tc2.svg"
+  },
+  "svg/td.svg": {
+    "file": "svg/td.svg",
+    "src": "svg/td.svg"
+  },
+  "svg/td2.svg": {
+    "file": "svg/td2.svg",
+    "src": "svg/td2.svg"
+  },
+  "svg/tf.svg": {
+    "file": "svg/tf.svg",
+    "src": "svg/tf.svg"
+  },
+  "svg/tf2.svg": {
+    "file": "svg/tf2.svg",
+    "src": "svg/tf2.svg"
+  },
+  "svg/tg.svg": {
+    "file": "svg/tg.svg",
+    "src": "svg/tg.svg"
+  },
+  "svg/tg2.svg": {
+    "file": "svg/tg2.svg",
+    "src": "svg/tg2.svg"
+  },
+  "svg/th.svg": {
+    "file": "svg/th.svg",
+    "src": "svg/th.svg"
+  },
+  "svg/th2.svg": {
+    "file": "svg/th2.svg",
+    "src": "svg/th2.svg"
+  },
+  "svg/tj.svg": {
+    "file": "svg/tj.svg",
+    "src": "svg/tj.svg"
+  },
+  "svg/tj2.svg": {
+    "file": "svg/tj2.svg",
+    "src": "svg/tj2.svg"
+  },
+  "svg/tk.svg": {
+    "file": "svg/tk.svg",
+    "src": "svg/tk.svg"
+  },
+  "svg/tk2.svg": {
+    "file": "svg/tk2.svg",
+    "src": "svg/tk2.svg"
+  },
+  "svg/tl.svg": {
+    "file": "svg/tl.svg",
+    "src": "svg/tl.svg"
+  },
+  "svg/tl2.svg": {
+    "file": "svg/tl2.svg",
+    "src": "svg/tl2.svg"
+  },
+  "svg/tm.svg": {
+    "file": "svg/tm.svg",
+    "src": "svg/tm.svg"
+  },
+  "svg/tm2.svg": {
+    "file": "svg/tm2.svg",
+    "src": "svg/tm2.svg"
+  },
+  "svg/tn.svg": {
+    "file": "svg/tn.svg",
+    "src": "svg/tn.svg"
+  },
+  "svg/tn2.svg": {
+    "file": "svg/tn2.svg",
+    "src": "svg/tn2.svg"
+  },
+  "svg/to.svg": {
+    "file": "svg/to.svg",
+    "src": "svg/to.svg"
+  },
+  "svg/to2.svg": {
+    "file": "svg/to2.svg",
+    "src": "svg/to2.svg"
+  },
+  "svg/tr.svg": {
+    "file": "svg/tr.svg",
+    "src": "svg/tr.svg"
+  },
+  "svg/tr2.svg": {
+    "file": "svg/tr2.svg",
+    "src": "svg/tr2.svg"
+  },
+  "svg/tt.svg": {
+    "file": "svg/tt.svg",
+    "src": "svg/tt.svg"
+  },
+  "svg/tt2.svg": {
+    "file": "svg/tt2.svg",
+    "src": "svg/tt2.svg"
+  },
+  "svg/tv.svg": {
+    "file": "svg/tv.svg",
+    "src": "svg/tv.svg"
+  },
+  "svg/tv2.svg": {
+    "file": "svg/tv2.svg",
+    "src": "svg/tv2.svg"
+  },
+  "svg/tw.svg": {
+    "file": "svg/tw.svg",
+    "src": "svg/tw.svg"
+  },
+  "svg/tw2.svg": {
+    "file": "svg/tw2.svg",
+    "src": "svg/tw2.svg"
+  },
+  "svg/tz.svg": {
+    "file": "svg/tz.svg",
+    "src": "svg/tz.svg"
+  },
+  "svg/tz2.svg": {
+    "file": "svg/tz2.svg",
+    "src": "svg/tz2.svg"
+  },
+  "svg/ua.svg": {
+    "file": "svg/ua.svg",
+    "src": "svg/ua.svg"
+  },
+  "svg/ua2.svg": {
+    "file": "svg/ua2.svg",
+    "src": "svg/ua2.svg"
+  },
+  "svg/ug.svg": {
+    "file": "svg/ug.svg",
+    "src": "svg/ug.svg"
+  },
+  "svg/ug2.svg": {
+    "file": "svg/ug2.svg",
+    "src": "svg/ug2.svg"
+  },
+  "svg/um.svg": {
+    "file": "svg/um.svg",
+    "src": "svg/um.svg"
+  },
+  "svg/um2.svg": {
+    "file": "svg/um2.svg",
+    "src": "svg/um2.svg"
+  },
+  "svg/un.svg": {
+    "file": "svg/un.svg",
+    "src": "svg/un.svg"
+  },
+  "svg/un2.svg": {
+    "file": "svg/un2.svg",
+    "src": "svg/un2.svg"
+  },
+  "svg/us.svg": {
+    "file": "svg/us.svg",
+    "src": "svg/us.svg"
+  },
+  "svg/us2.svg": {
+    "file": "svg/us2.svg",
+    "src": "svg/us2.svg"
+  },
+  "svg/uy.svg": {
+    "file": "svg/uy.svg",
+    "src": "svg/uy.svg"
+  },
+  "svg/uy2.svg": {
+    "file": "svg/uy2.svg",
+    "src": "svg/uy2.svg"
+  },
+  "svg/uz.svg": {
+    "file": "svg/uz.svg",
+    "src": "svg/uz.svg"
+  },
+  "svg/uz2.svg": {
+    "file": "svg/uz2.svg",
+    "src": "svg/uz2.svg"
+  },
+  "svg/va.svg": {
+    "file": "svg/va.svg",
+    "src": "svg/va.svg"
+  },
+  "svg/va2.svg": {
+    "file": "svg/va2.svg",
+    "src": "svg/va2.svg"
+  },
+  "svg/vc.svg": {
+    "file": "svg/vc.svg",
+    "src": "svg/vc.svg"
+  },
+  "svg/vc2.svg": {
+    "file": "svg/vc2.svg",
+    "src": "svg/vc2.svg"
+  },
+  "svg/ve.svg": {
+    "file": "svg/ve.svg",
+    "src": "svg/ve.svg"
+  },
+  "svg/ve2.svg": {
+    "file": "svg/ve2.svg",
+    "src": "svg/ve2.svg"
+  },
+  "svg/vg.svg": {
+    "file": "svg/vg.svg",
+    "src": "svg/vg.svg"
+  },
+  "svg/vg2.svg": {
+    "file": "svg/vg2.svg",
+    "src": "svg/vg2.svg"
+  },
+  "svg/vi.svg": {
+    "file": "svg/vi.svg",
+    "src": "svg/vi.svg"
+  },
+  "svg/vi2.svg": {
+    "file": "svg/vi2.svg",
+    "src": "svg/vi2.svg"
+  },
+  "svg/vn.svg": {
+    "file": "svg/vn.svg",
+    "src": "svg/vn.svg"
+  },
+  "svg/vn2.svg": {
+    "file": "svg/vn2.svg",
+    "src": "svg/vn2.svg"
+  },
+  "svg/vu.svg": {
+    "file": "svg/vu.svg",
+    "src": "svg/vu.svg"
+  },
+  "svg/vu2.svg": {
+    "file": "svg/vu2.svg",
+    "src": "svg/vu2.svg"
+  },
+  "svg/wf.svg": {
+    "file": "svg/wf.svg",
+    "src": "svg/wf.svg"
+  },
+  "svg/wf2.svg": {
+    "file": "svg/wf2.svg",
+    "src": "svg/wf2.svg"
+  },
+  "svg/ws.svg": {
+    "file": "svg/ws.svg",
+    "src": "svg/ws.svg"
+  },
+  "svg/ws2.svg": {
+    "file": "svg/ws2.svg",
+    "src": "svg/ws2.svg"
+  },
+  "svg/xk.svg": {
+    "file": "svg/xk.svg",
+    "src": "svg/xk.svg"
+  },
+  "svg/xk2.svg": {
+    "file": "svg/xk2.svg",
+    "src": "svg/xk2.svg"
+  },
+  "svg/xx.svg": {
+    "file": "svg/xx.svg",
+    "src": "svg/xx.svg"
+  },
+  "svg/xx2.svg": {
+    "file": "svg/xx2.svg",
+    "src": "svg/xx2.svg"
+  },
+  "svg/ye.svg": {
+    "file": "svg/ye.svg",
+    "src": "svg/ye.svg"
+  },
+  "svg/ye2.svg": {
+    "file": "svg/ye2.svg",
+    "src": "svg/ye2.svg"
+  },
+  "svg/yt.svg": {
+    "file": "svg/yt.svg",
+    "src": "svg/yt.svg"
+  },
+  "svg/yt2.svg": {
+    "file": "svg/yt2.svg",
+    "src": "svg/yt2.svg"
+  },
+  "svg/za.svg": {
+    "file": "svg/za.svg",
+    "src": "svg/za.svg"
+  },
+  "svg/za2.svg": {
+    "file": "svg/za2.svg",
+    "src": "svg/za2.svg"
+  },
+  "svg/zm.svg": {
+    "file": "svg/zm.svg",
+    "src": "svg/zm.svg"
+  },
+  "svg/zm2.svg": {
+    "file": "svg/zm2.svg",
+    "src": "svg/zm2.svg"
+  },
+  "svg/zw.svg": {
+    "file": "svg/zw.svg",
+    "src": "svg/zw.svg"
+  },
+  "svg/zw2.svg": {
+    "file": "svg/zw2.svg",
+    "src": "svg/zw2.svg"
+  }
+}
