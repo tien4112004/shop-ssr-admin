@@ -1,5 +1,5 @@
 .env
-server/public/assets
+server/public/assets/js
 
 # Logs
 logs
