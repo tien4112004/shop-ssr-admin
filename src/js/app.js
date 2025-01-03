@@ -1,3 +1,7 @@
+if (!localStorage.getItem('token') && window.location.pathname !== '/login.html') {
+  window.location.href = '/login.html';
+}
+
 //Third party packages
 import '@fortawesome/fontawesome-free/js/all';
 import feather from 'feather-icons';
@@ -76,6 +80,7 @@ checkAll.init();
 
 // Initialize feather-icons. Must be Initialize at the end.
 feather.replace();
+
 
 // Polyfill for ResizeObserver
 window.ResizeObserver = ResizeObserver;

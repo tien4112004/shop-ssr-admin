@@ -464,62 +464,7 @@
             <!-- Sidebar Toggle & Search Ends -->
 
             <!-- Header Options Starts -->
-            <div class="flex items-center">
-              <!-- Language Dropdown Starts -->
-              <div class="dropdown" data-strategy="absolute">
-                <div class="dropdown-toggle px-3">
-                  <button
-                    type="button"
-                    class="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-700 focus:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300 dark:focus:text-slate-300"
-                  >
-                    <span class="fi fi-gb"></span>
-                    <span class="hidden font-medium md:inline-block">English</span>
-                    <span class="inline-block font-medium md:hidden">EN</span>
-                  </button>
-                </div>
-
-                <div class="dropdown-content mt-3 w-40">
-                  <ul class="dropdown-list">
-                    <li class="dropdown-list-item">
-                      <button class="dropdown-btn" type="button">
-                        <span class="fi fi-gb"></span>
-                        <span class="">English</span>
-                      </button>
-                    </li>
-                    <li class="dropdown-list-item">
-                      <button class="dropdown-btn" type="button">
-                        <span class="fi fi-de"></span>
-                        <span class="">German</span>
-                      </button>
-                    </li>
-                    <li class="dropdown-list-item">
-                      <button class="dropdown-btn" type="button">
-                        <span class="fi fi-gf"></span>
-                        <span class="">French</span>
-                      </button>
-                    </li>
-                    <li class="dropdown-list-item">
-                      <button class="dropdown-btn" type="button">
-                        <span class="fi fi-sa"></span>
-                        <span class="">Arabic</span>
-                      </button>
-                    </li>
-                    <li class="dropdown-list-item">
-                      <button class="dropdown-btn" type="button">
-                        <span class="fi fi-cn"></span>
-                        <span class="">Chinese</span>
-                      </button>
-                    </li>
-                    <li class="dropdown-list-item">
-                      <button class="dropdown-btn" type="button">
-                        <span class="fi fi-bd"></span>
-                        <span class="">Bangla</span>
-                      </button>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- Language Dropdown Ends -->
+            <div class="flex items-center">              
 
               <!-- Dark Mood Toggle Starts -->
               <div class="dropdown" data-strategy="absolute" id="theme-switcher-dropdown">
@@ -707,10 +652,10 @@
                 <div class="dropdown-content mt-1 w-56 divide-y dark:divide-slate-600">
                   <div class="px-4 py-3">
                     <p class="text-sm">Signed in as</p>
-                    <p class="truncate text-sm font-medium">admin@example.com</p>
+                    <p class="profile-name truncate text-sm font-medium">admin@example.com</p>
                   </div>
                   <div class="py-1">
-                    <a href="javascript:void(0)" class="dropdown-link">
+                    <a href="javascript:void(0)" class=" profile-link dropdown-link">
                       <i width="18" height="18" data-feather="user" class="text-slate-500"></i>
                       <span>Profile</span>
                     </a>
@@ -718,14 +663,10 @@
                       <i width="18" height="18" data-feather="settings" class="text-slate-500"></i>
                       <span>Settings</span>
                     </a>
-                    <a href="javascript:void(0)" class="dropdown-link">
-                      <i width="18" height="18" data-feather="help-circle" class="text-slate-500"></i>
-                      <span>Support</span>
-                    </a>
                   </div>
                   <div class="py-1">
                     <form method="POST" action="#">
-                      <button type="submit" class="dropdown-btn">
+                      <button type="submit" class="sign-out dropdown-btn">
                         <i width="18" height="18" data-feather="log-out" class="text-slate-500"></i>
                         <span>Sign out</span>
                       </button>
@@ -1751,5 +1692,6 @@
     </div>
     <script src="./js/app.js" type="module"></script>
     <script src="./js/custom/analytics.js" type="module"></script>
+    <script src="./js/header.js" type="module"></script>
   </body>
 </html>
