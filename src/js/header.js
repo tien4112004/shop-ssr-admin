@@ -1,4 +1,4 @@
-import AccessService from "./services/access.service";
+import AccessService from "./services/access.service.js";
 
 
 console.log(localStorage.getItem('profile'));
