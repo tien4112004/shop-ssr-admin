@@ -1,4 +1,4 @@
-// import Accordion from 'accordion-js';
+import Accordion from 'accordion-js';
 
 const accordion = {
   init() {
