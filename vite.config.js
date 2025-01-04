@@ -37,7 +37,7 @@ export default defineConfig({
           .filter(file => file.endsWith('.js'))
           .map(file => [file.replace('.js', ''), resolve(__dirname, 'server/views/js/pages', file)])
         ),
-        style: resolve(__dirname, 'server/views/css/app.css')
+        // style: resolve(__dirname, 'server/views/css/app.css')
       },
       output: {
         // // Ensure clean asset file names

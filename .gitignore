@@ -1,5 +1,6 @@
 .env
 server/public/assets/js
+server/public/assets/manifest.json
 
 # Logs
 logs
