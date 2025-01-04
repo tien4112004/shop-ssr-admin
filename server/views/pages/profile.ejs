@@ -1,0 +1,119 @@
+<%- contentFor('body') %>
+
+<!-- Main Content Starts -->
+<main class="container flex-grow p-4 sm:p-6">
+  <!-- Page Title Starts -->
+  <div class="mb-6 flex flex-col justify-between gap-y-1 sm:flex-row sm:gap-y-0">
+    <h5>Profile</h5>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">Users</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">Profile</a>
+      </li>
+    </ol>
+  </div>
+  <!-- Page Title Ends -->
+
+  <!-- User Profile Start  -->
+  <div class="grid grid-cols-1 gap-6 lg:grid-cols-4">
+    <!-- Left Section Start  -->
+    <section class="col-span-1 flex h-min w-full flex-col gap-6 lg:sticky lg:top-20">
+      <!-- User Avatar & Status  -->
+      <div class="card">
+        <div class="card-body flex flex-col items-center">
+          <div class="relative my-2 h-24 w-24 rounded-full">
+            <img
+              src="./images/avatar11.png"
+              alt="avatar-img"
+              class="user-avatar h-full w-full rounded-full"
+            />
+          </div>
+          <h2 class="user-fullname text-[16px] font-medium text-slate-700 dark:text-slate-200">User Fullname (not implemented)</h2>
+          <div class="user-status badge badge-soft-success my-3 inline-block px-4">User Status (not implemented)</div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Left Section End  -->
+    <!-- Right Section Start  -->
+    <section class="col-span-1 flex w-full flex-1 flex-col gap-6 lg:col-span-3 lg:w-auto">
+      <!-- Personal Details  -->
+      <div class="card">
+        <div class="card-body">
+          <h2 class="text-[16px] font-semibold text-slate-700 dark:text-slate-300">Personal Details</h2>
+          <p class="mb-4 text-sm font-normal text-slate-400">Manage your personal information</p>
+          <form method="get" class="flex flex-col gap-5">
+            <!-- Phone & Email  -->
+            <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+              <label class="label" for="phone">
+                <span class="my-1 block">Phone Number</span>
+                <input type="tell" class="user-phone input" value="+880 1834507645" id="phone" disabled />
+              </label>
+              <label class="label" for="email">
+                <span class="my-1 block">Email</span>
+                <input type="email" class="user-email input" value="ahmedshakil@example.com" id="email" disabled />
+              </label>
+            </div>
+            
+            <!-- Street & City  -->
+            <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+              <label class="label" for="street-address">
+                <span class="my-1 block">Street Address (not implemented)</span>
+                <input
+                  type="text"
+                  class="input"
+                  value="15205 North California,  Suite 100"
+                  id="street-address"
+                  disabled
+                />
+              </label>
+              <label class="label" for="city-state">
+                <span class="my-1 block">City/State  (not implemented)</span>
+                <input type="text" class="input" value="California" id="city-state" disabled />
+              </label>
+            </div>
+            <!-- Country & Zip  -->
+            <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+              <label class="label" for="country">
+                <span class="my-1 block">Country (not implemented)</span>
+                <input type="text" class="input" value="United States" id="country" disabled />
+              </label>
+              <label class="label" for="zip-code">
+                <span class="my-1 block">Zip Code (not implemented)</span>
+                <input type="text" class="input" value="90011" id="zip-code" disabled />
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Ban Account -->
+      <div class="card">
+        <div class="card-body">
+          <h2 class="text-[16px] font-semibold text-slate-700 dark:text-slate-300">Ban Account</h2>
+          <p class="mb-4 text-sm font-normal text-slate-400">
+            Ban this account in the platform
+          </p>
+          <form class="grid grid-cols-1 gap-4 md:grid-cols-1 md:gap-0">
+            <div class="flex flex-wrap items-center justify-center">
+              <div>
+                <button class="ban-user btn btn-danger px-6" type="submit">Ban User</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Right Section End -->
+  </div>
+  <!-- User Profile End  -->
+</main>
+<!-- Main Content Ends -->
+
+<script type="module" src="<%= getAssetUrl('js/pages/profile.js') %>"></script>

@@ -1,16 +1,16 @@
 import toast from "../components/toast";
-import ProfileService from "../services/profile.service";
+import ProfileService from "../services/admin.service";
 
 
 export default class AdminProfileController {
   constructor() {
+    this.profileName = document.querySelector('.fullname-header');
     this.fullnameInput = document.querySelector('input#fullname');
     this.addressInput = document.querySelector('input#address');
     this.emailInput = document.querySelector('input#email');
     this.phoneNumberInput = document.querySelector('input#phone');
     this.dobInput = document.querySelector('input#dob');
     this.genderInput = document.querySelector('select#gender');
-
 
     this.cancelUpdateProfileBtn = document.querySelector('button.cancel-update-profile');
     this.updateProfileBtn = document.querySelector('button.submit-update-profile');
@@ -19,6 +19,7 @@ export default class AdminProfileController {
   init() {
     const profile = JSON.parse(localStorage.getItem('profile'));
 
+    this.profileName.textContent = profile.fullname;
     this.fullnameInput.value = profile.fullname;
     this.addressInput.value = profile.address;
     this.emailInput.value = profile.email;

@@ -18,19 +18,19 @@
 */
 
 export default class User {
-  constructor(userId, status, email, hashedPassword, confirmed, createdAt, lastLogin, phoneNumber, fullname, avatarUrl, publicImgId, oauthProvider, oauthId) {
-    this.userId = userId;
-    this.status = status;
-    this.email = email;
-    this.hashedPassword = hashedPassword;
-    this.confirmed = confirmed;
-    this.createdAt = createdAt;
-    this.lastLogin = lastLogin;
-    this.phoneNumber = phoneNumber;
-    this.fullname = fullname;
-    this.avatarUrl = avatarUrl;
-    this.publicImgId = publicImgId;
-    this.oauthProvider = oauthProvider;
-    this.oauthId = oauthId;
-  }
+  userId;
+
+  avatarUrl;
+  status;
+  fullname;
+  email;
+  phoneNumber;
+
+  lastLogin;
+  createdAt;
+
+  confirmed;
+  publicImgId;
+  oauthProvider;
+  oauthId;
 }

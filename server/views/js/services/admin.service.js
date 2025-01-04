@@ -27,7 +27,7 @@ export default class ProfileService {
    * }} data
    */
   static async updateAdminProfile(data) {
-    const { profile } = await custom_fetch('PATCH', `${PROFILE_ENDPOINT}/api/admin`, null, data, true);
+    const { profile } = await custom_fetch('PATCH', `${PROFILE_ENDPOINT}/api/admin`, undefined, data, true);
     return profile;
   }
 }

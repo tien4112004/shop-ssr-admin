@@ -23,17 +23,22 @@ class UserService {
    * }>}
    */
   static async getUsers(query) {
-    const { count, users } = await custom_fetch('GET', `${USERS_ENDPOINT}/api`, query);
+    const { count, users } = await custom_fetch('GET', `${USERS_ENDPOINT}/api`, query, undefined, true);
     return { count, users };
   }
 
+  /**
+   * 
+   * @param {number} id 
+   * @returns {Promise<User>}
+   */
   static async getUserById(id) {
-    const { user } = await custom_fetch('GET', `${USERS_ENDPOINT}/api/${id}`);
+    const { user } = await custom_fetch('GET', `${USERS_ENDPOINT}/api/${id}`, undefined, undefined, true);
     return user;
   }
 
   static async changeUserStatus(userId, status) {
-    await custom_fetch('PATCH', `${USERS_ENDPOINT}/api/${userId}`, null, { status }, true);
+    await custom_fetch('PATCH', `${USERS_ENDPOINT}/api/${userId}`, undefined, { status }, true);
   }
 }
 

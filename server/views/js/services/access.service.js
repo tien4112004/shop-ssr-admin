@@ -6,7 +6,7 @@ export default class AccessService {
     const { token, profile } = await custom_fetch(
       'POST', 
       `${ACCESS_ENDPOINT}/api/admin/login`, 
-      null, 
+      undefined, 
       { username, password },
       false
     );

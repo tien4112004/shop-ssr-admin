@@ -1,7 +1,3 @@
-if (!localStorage.getItem('token') && window.location.pathname !== '/login') {
-  window.location.href = '/login';
-}
-
 //Third party packages
 import '@fortawesome/fontawesome-free/js/all';
 import feather from 'feather-icons';

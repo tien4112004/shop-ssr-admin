@@ -23,6 +23,11 @@ router.get(
 );
 
 router.get(
+  '/profile',
+  controller.getProfile
+);
+
+router.get(
   '*',
   controller.getNotFound
 );

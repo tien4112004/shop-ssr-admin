@@ -23,7 +23,7 @@ class UserListRow {
         <img class="avatar-img" src="${this.user.avatarUrl ?? '../../images/avatar1.png'}" alt="Avatar 1" />
       </div>
       <div>
-        <a href="/profile.html?id=${this.user.userId}">
+        <a href="/profile?id=${this.user.userId}">
         <h6 class="whitespace-nowrap text-sm font-medium text-slate-700 dark:text-slate-100">
           ${this.user.fullname ?? 'No name'}
         </h6>

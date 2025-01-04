@@ -5,6 +5,8 @@ export default async function(method, endpoint, query, body, auth) {
     throw new Error('Please login to proceed');
   }
 
+  console.log(body)
+
   for (const key in query) {
     if (query[key] === undefined) {
       delete query[key];
@@ -20,7 +22,7 @@ export default async function(method, endpoint, query, body, auth) {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${token}`
     },
-    body: JSON.stringify(body)
+    body: body && JSON.stringify(body)
   });
   const data = await response.json();
   if (!response.ok) {
