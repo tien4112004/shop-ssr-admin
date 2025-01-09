@@ -1,30 +1,50 @@
+// vite.config.js
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
-import glob from 'glob';
+import fs from 'fs';
 
-const entries = glob.sync('./src/**/*.html').reduce((acc, path) => {
-  const name = path.split('/').pop().split('.').shift();
-  acc[name] = path;
-  return acc;
-}, {});
+const __dirname = import.meta.dirname;
 
 export default defineConfig({
-  root: 'src',
+  root: 'server/views',
   resolve: {
     alias: {
       '@tailwind.config': resolve(__dirname, './tailwind.config.js'),
-      '@': resolve(__dirname, './src'),
+      '@': resolve(__dirname, './server/views'),
     }
   },
-  optimizeDeps: {
-    entries: Object.keys(entries),
-  },
   build: {
-    target: 'esnext',
-    outDir: resolve(__dirname, 'dist'),
+    // Output directory for built files
+    outDir: resolve(__dirname, 'server/public/assets'),
+    
+    // Generate manifest.json for server-side import
+    manifest: true,
+    
     rollupOptions: {
-      input: entries,
+      input: {
+        ...Object.fromEntries(
+          fs.readdirSync(resolve(__dirname, 'server/views/js'))
+          .filter(file => file.endsWith('.js'))
+          .map(file => [file.replace('.js', ''), resolve(__dirname, 'server/views/js', file)])
+        ),
+        ...Object.fromEntries(
+          fs.readdirSync(resolve(__dirname, 'server/views/js/custom'))
+          .filter(file => file.endsWith('.js'))
+          .map(file => [file.replace('.js', ''), resolve(__dirname, 'server/views/js/custom', file)])
+        ),
+        ...Object.fromEntries(
+          fs.readdirSync(resolve(__dirname, 'server/views/js/pages'))
+          .filter(file => file.endsWith('.js'))
+          .map(file => [file.replace('.js', ''), resolve(__dirname, 'server/views/js/pages', file)])
+        ),
+        // style: resolve(__dirname, 'server/views/css/app.css')
+      },
       output: {
+        // // Ensure clean asset file names
+        // entryFileNames: 'js/[name]-[hash].js',
+        // chunkFileNames: 'js/[name]-[hash].js',
+        // assetFileNames: '[ext]/[name]-[hash].[ext]',
+
         assetFileNames: (chunkInfo) => {
           let outDir = '';
 
@@ -67,22 +87,20 @@ export default defineConfig({
         },
         chunkFileNames: 'js/[name]-[hash].js',
         entryFileNames: 'js/[name]-[hash].js',
-        // manualChunks: (id) => {
-        //   const fileName = id.split("/").pop();
-
-        //   // if (id.includes("node_modules/")) {
-        //   //   return "plugins";
-        //   // }
-
-        //   // if (id.includes("components/")) {
-        //   //   return "components/" + fileName;
-        //   // }
-
-        //   // if (id.includes("custom/")) {
-        //   //   return "custom/" + fileName;
-        //   // }
-        // },
       }
-    },
+    }
   },
+  
+  // Development server configuration
+  server: {
+    // Ensure Vite's dev server doesn't conflict with Express
+    port: 5173,
+    strictPort: true,
+    
+    // Configure HMR to work with Express
+    hmr: {
+      protocol: 'ws',
+      port: 5173,
+    }
+  }
 });
