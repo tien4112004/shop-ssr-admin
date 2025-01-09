@@ -1,5 +1,5 @@
 import toast from "../components/toast";
-import ProfileService from "../services/admin.service";
+import AdminService from "../services/admin.service";
 
 
 export default class AdminProfileController {
@@ -47,9 +47,7 @@ export default class AdminProfileController {
       const dob = new Date(this.dobInput.value);
       const gender = this.genderInput.value;
 
-      console.log(dob);
-
-      const profile = await ProfileService.updateAdminProfile({ fullname, address, email, phoneNumber, dob, gender})
+      const profile = await AdminService.updateAdminProfile({ fullname, address, email, phoneNumber, dob, gender})
       localStorage.setItem('profile', JSON.stringify(profile));
 
       toast.success('Profile updated successfully');

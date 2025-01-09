@@ -22,6 +22,8 @@ import tabs from './components/tabs';
 import themeSwitcher from './components/theme-switcher';
 import tooltip from './components/tooltip';
 import uploader from './components/uploader';
+import AccessService from './services/access.service';
+import AccessController from './controllers/access.controller';
 
 // Initialize searchModal
 searchModal.init();
@@ -80,3 +82,7 @@ feather.replace();
 
 // Polyfill for ResizeObserver
 window.ResizeObserver = ResizeObserver;
+
+
+const accessController = new AccessController();
+accessController.init();

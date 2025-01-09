@@ -1,17 +1,23 @@
 
+import Admin from "../interfaces/admin";
 import User from "../interfaces/user";
 
 class UserListRow {
   
   /**
-   * @param {User} user 
+   * @param {User | Admin} user 
    */
-  constructor(user) {
-    this.user = user;
-    console.log(user)
+  constructor(data, isUser = true) {
+    this.user = data;
+    this.admin = data;
+    this.isUser = isUser;
   }
 
   toHtml() {
+    return this.isUser ? this.toHtmlForUser() : this.toHtmlForAdmin();
+  }
+
+  toHtmlForUser() {
     return `
 <tr>
   <td>
@@ -64,6 +70,28 @@ class UserListRow {
   </td>
 </tr>
     `
+  }
+
+  toHtmlForAdmin() {
+    return `
+<tr>
+  <td>
+    <div class="flex items-center gap-3">
+      <div class="avatar avatar-circle">
+        <img class="avatar-img" src="../../images/avatar1.png" alt="Avatar" />
+      </div>
+      <div>
+        <h6 class="whitespace-nowrap text-sm font-medium text-slate-700 dark:text-slate-100">
+          ${this.admin.fullname ?? 'No name'}
+        </h6>
+      </div>
+    </div>
+  </td>
+  <td>${this.admin.email}</td>
+  <td>${this.admin.phoneNumber ?? 'None'}</td>
+  <td>${this.admin.gender}</td>
+</tr>
+    `;
   }
 
 }

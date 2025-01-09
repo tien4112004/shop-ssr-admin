@@ -32,7 +32,7 @@
           <i class="h-4 text-slate-400 group-focus-within:text-primary-500" data-feather="search"></i>
         </div>
         <input
-          class="h-full w-full border-transparent bg-transparent px-0 text-sm placeholder-slate-400 placeholder:text-sm focus:border-transparent focus:outline-none focus:ring-0"
+          class="search-user h-full w-full border-transparent bg-transparent px-0 text-sm placeholder-slate-400 placeholder:text-sm focus:border-transparent focus:outline-none focus:ring-0"
           type="text"
           placeholder="Search"
         />
@@ -52,11 +52,18 @@
             </div>
             <div class="dropdown-content w-72 !overflow-visible">
               <ul class="dropdown-list space-y-4 p-4">
-                
+                <li class="dropdown-list-item">
+                  <h2 class="my-1 text-sm font-medium">User type</h2>
+                  <select class="user-type select">
+                    <option value="" disabled>Select User Type</option>
+                    <option value="1" selected>User</option>
+                    <option value="2">Admin</option>
+                  </select>
+                </li>
                 <li class="dropdown-list-item">
                   <h2 class="my-1 text-sm font-medium">Status</h2>
                   <select class="user-status select">
-                    <option value="">Select to Status</option>
+                    <option value="">Select Status</option>
                     <option value="1">Active</option>
                     <option value="2">Blocked</option>
                   </select>
@@ -69,7 +76,15 @@
                     <option value="2">Not confirmed yet</option>
                   </select>
                 </li>
-
+                <li class="dropdown-list-item">
+                  <h2 class="my-1 text-sm font-medium">Sort</h2>
+                  <select class="user-sort select w-full" autocomplete="off">
+                    <option value="">Select a sort option</option>
+                    <option value="1">Name</option>
+                    <option value="2">Email</option>
+                    <option value="3">Phone Number</option>
+                  </select>
+                </li>
               </ul>
             </div>
           </div>
@@ -88,16 +103,22 @@
     <div class="table-responsive whitespace-nowrap rounded-primary">
       <table class="table user-list">
         <thead>
-          <tr>
+          <tr class="user-list-header">
             <th class="w-[5%]">
               <input class="checkbox" type="checkbox" data-check-all data-check-all-target=".user-checkbox" />
             </th>
-            <th class="w-[30%] uppercase">User</th>
+            <th class="w-[30%] uppercase">Fullname</th>
             <th class="w-[15%] uppercase">Email</th>
             <th class="w-[15%] uppercase">Phone</th>
             <th class="w-[15%] uppercase">Joined Date</th>
             <th class="w-[15%] uppercase">Status</th>
             <th class="w-[5%] !text-right uppercase">Actions</th>
+          </tr>
+          <tr class="admin-list-header hidden">
+            <th class="w-[30%] uppercase">Fullname</th>
+            <th class="w-[15%] uppercase">Email</th>
+            <th class="w-[15%] uppercase">Phone</th>
+            <th class="w-[15%] uppercase">Gender</th>
           </tr>
         </thead>
         <tbody>

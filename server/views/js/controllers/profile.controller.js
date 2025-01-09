@@ -17,7 +17,6 @@ export default class ProfileController {
 
   async init() {
     this.user = await this.getUser();
-    console.log(this.user)
 
     this.fillData();
 

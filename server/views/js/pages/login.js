@@ -1,4 +1,4 @@
-import LoginController from '../controllers/access.controller.js';
+import LoginController from '../controllers/login.controller.js';
 
 const loginController = new LoginController();
 loginController.init();
