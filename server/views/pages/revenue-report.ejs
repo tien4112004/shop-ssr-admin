@@ -1,0 +1,61 @@
+<%- contentFor('body') %>
+
+<!-- Main Content Starts -->
+<main class="container flex-grow p-4 sm:p-6">
+    <!-- info -->
+    <div class="col-span-9 shadow rounded px-6 pt-5 pb-7">
+        <h1 class="text-2xl uppercase font-medium">Revenue Report</h1>
+        <div>
+            <form id="filter-form">
+                <div class="mt-8 dropdown-list-item">
+                    <label for="time-range">Time range:</label>
+                    <select id="time-range" name="sortBy" class="mb-2 user-type select">
+                        <option value="day">Day</option>
+                        <option value="week">Week</option>
+                        <option value="month">Month</option>
+                    </select>
+                </div>
+
+                <label for="start-date">Start Date:</label>
+                <input id="start-date" class="mb-2 input input-date" type="text" placeholder="Start date"/>
+
+                <label for="end-date">End Date:</label>
+                <input id="end-date" class="mb-2 input input-date" type="text" placeholder="End date"/>
+
+                <label for="sort-by">Sort By:</label>
+                <select id="sort-by" name="sortBy" class="mb-2 user-type select">
+                    <option value="createdAt">Date</option>
+                    <option value="totalAmount">Revenue</option>
+                </select>
+
+                <label for="order">Order:</label>
+                <select id="order" name="sortBy" class="mb-2 user-type select">
+                    <option value="asc">Ascending</option>
+                    <option value="desc">Descending</option>
+                </select>
+
+                <button type="submit" class="w-full btn btn-primary">Filter</button>
+            </form>
+            <div class="mt-8" id="table-chart-dev">
+                <table id="revenue-table" class="table mt-12">
+                    <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Revenue</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- Data will be inserted here -->
+                    </tbody>
+                </table>
+
+                <!--canvas id="revenue-chart" width="400" height="200"></canvas-->
+                <div id="column-chart"></div>
+
+            </div>
+        </div>
+        <!-- ./info -->
+    </div>
+</main>
+<!-- ./account wrapper -->
+<script type="module" src="<%= getAssetUrl('js/pages/revenue.js') %>"></script>

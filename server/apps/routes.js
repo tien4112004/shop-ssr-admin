@@ -28,6 +28,11 @@ router.get(
 );
 
 router.get(
+    '/revenue-report',
+    controller.getRevenueReport
+);
+
+router.get(
   '*',
   controller.getNotFound
 );
@@ -35,6 +40,7 @@ router.get(
 router.use(
   controller.getServerError
 );
+
 
 
 export default router;
