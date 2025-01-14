@@ -28,6 +28,11 @@ router.get(
     controller.getTopRevenueReportByProduct
 );
 
+router.get(
+    '/user-statistic',
+    controller.getUserStatistic
+)
+
 router.get("/profile", controller.getProfile);
 
 router.get("/product-list", controller.getProductListPage);
