@@ -83,6 +83,17 @@ export default class RevenueReportController {
                             data: revenue.map(record => record.totalAmount),
                         },
                     ],
+                    tooltip: {
+                        enabled: true,
+                        enabledOnSeries: undefined,
+                        shared: true,
+                        followCursor: true,
+                        intersect: false,
+                        inverseOrder: true,
+                        custom: undefined,
+                        hideEmptySeries: true,
+                        fillSeriesColor: true,
+                    },
                     chart: {
                         height: 350,
                         type: 'line',

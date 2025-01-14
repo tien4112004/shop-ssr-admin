@@ -133,6 +133,15 @@ export default class TopRevenueReportController {
                                 return `$${val.toFixed(2)}`;
                             },
                         },
+                        enabled: true,
+                        enabledOnSeries: undefined,
+                        shared: true,
+                        followCursor: true,
+                        intersect: false,
+                        inverseOrder: true,
+                        custom: undefined,
+                        hideEmptySeries: true,
+                        fillSeriesColor: true,
                     },
                 });
 
