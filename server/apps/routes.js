@@ -34,6 +34,8 @@ router.get("/product-list", controller.getProductListPage);
 
 router.get("/product-edit", controller.getProductEditPage);
 
+router.get("/product-add", controller.getProductAddPage);
+
 router.get("/order-list", controller.getOrderListPage);
 
 router.get("/order-details", controller.getOrderEditPage);

@@ -53,6 +53,7 @@
     "feather-icons": "^4.29.0",
     "flag-icons": "^6.6.6",
     "flatpickr": "^4.6.13",
+    "helmet": "^8.0.0",
     "highlight.js": "^11.7.0",
     "js-beautify": "^1.14.7",
     "jwt-decode": "^4.0.0",

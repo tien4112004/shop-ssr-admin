@@ -44,6 +44,10 @@ export default {
     res.render('pages/product-edit');
   },
 
+  getProductAddPage: (req, res) => {
+    res.render('pages/product-add');
+  },
+
   getOrderListPage: (req, res) => {
     res.render('pages/order-list');
   },

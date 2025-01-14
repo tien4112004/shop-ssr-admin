@@ -94,6 +94,7 @@ export default defineConfig({
   // Development server configuration
   server: {
     // Ensure Vite's dev server doesn't conflict with Express
+    cors: true,
     port: 5173,
     strictPort: true,
     

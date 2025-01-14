@@ -10,6 +10,8 @@
       name="description"
       content="Admin Toolkit is a modern admin dashboard template based on Tailwindcss. It comes with a variety of useful ui components and pre-built pages"
     />
+
+    <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -119,7 +121,7 @@
           </li>
           <!-- Invoice -->
           <li>
-            <a href="javascript:void(0);" class="sidebar-menu">
+            <a href="javascript:void(0);" class="sidebar-menu <%= ['/revenue-report', '/top-revenue-report'].includes(path) ? 'active' : '' %>">
               <span class="sidebar-menu-icon">
                 <i data-feather="file-text"></i>
               </span>
@@ -130,11 +132,11 @@
             </a>
             <ul class="sidebar-submenu">
               <li>
-                <a href="./revenue-report" class="sidebar-submenu-item"> Revenue </a>
+                <a href="./revenue-report" class="sidebar-submenu-item <%= path === '/revenue-report' ? 'active' : '' %>"> Revenue </a>
               </li>
 
               <li>
-                <a href="./top-revenue-report" class="sidebar-submenu-item"> Top revenue by products </a>
+                <a href="./top-revenue-report" class="sidebar-submenu-item <%= path === '/top-revenue-report' ? 'active' : '' %>"> Top revenue by products </a>
               </li>
             </ul>
           </li>
