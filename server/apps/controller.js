@@ -20,6 +20,10 @@ export default {
     res.render('pages/admin-profile');
   },
 
+  getTopRevenueReportByProduct: (req, res) => {
+    res.render('pages/top-revenue-report');
+  },
+
   /**
    * 
    * @param {Express.Request} req 

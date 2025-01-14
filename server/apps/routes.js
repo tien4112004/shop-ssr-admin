@@ -33,6 +33,11 @@ router.get(
 );
 
 router.get(
+    '/top-revenue-report',
+    controller.getTopRevenueReportByProduct
+)
+
+router.get(
   '*',
   controller.getNotFound
 );

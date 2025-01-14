@@ -12,7 +12,7 @@ import colors from "tailwindcss/colors";
 import themeConfig from "tailwindcss/defaultConfig";
 
 
-export default class RevenueReportController {
+export default class TopRevenueReportController {
     PAGE_SIZE = 10;
 
     currentPage = 1;
@@ -26,6 +26,9 @@ export default class RevenueReportController {
         this.filterForm = document.getElementById("filter-form");
         this.table = document.getElementById("revenue-table");
         this.chart = document.getElementById("column-chart");
+        this.totalRevenue = document.getElementById("total-revenue").value;
+        this.totalOrder = document.getElementById("total-order").value;
+
     }
 
     init() {
@@ -43,7 +46,7 @@ export default class RevenueReportController {
             this.totalOrder = document.getElementById("total-order");
 
             console.log(this.startDate, this.endDate, this.currentPage, this.PAGE_SIZE, this.sortBy, this.order, this.timeRange);
-            await this.fetchRevenueReport(this.startDate, this.endDate, this.currentPage, this.PAGE_SIZE, this.sortBy, this.order, this.timeRange);
+            await this.fetchTopRevenueReport(this.startDate, this.endDate, this.currentPage, this.PAGE_SIZE, this.sortBy, this.order, this.timeRange);
         });
 
         document.addEventListener("DOMContentLoaded", async () => {
@@ -51,12 +54,12 @@ export default class RevenueReportController {
         });
     }
 
-    async fetchRevenueReport(startDate, endDate, page = 1, pageSize = 10, sortBy = 'createdAt', order = 'desc', timeRange = 'day') {
+    async fetchTopRevenueReport(startDate, endDate, page = 1, pageSize = 10, sortBy = 'totalAmount', order = 'desc', timeRange = 'day') {
         try {
             console.log(startDate, endDate, page, pageSize, sortBy, order, timeRange);
 
             // Fetch the revenue data
-            const {totalRevenue, totalCount, revenue} = await AdminService.getRevenueReport(
+            const {totalRevenue, totalCount, revenue} = await AdminService.getTopRevenueReportByProduct(
                 startDate,
                 endDate,
                 page,
@@ -66,11 +69,12 @@ export default class RevenueReportController {
                 timeRange
             );
 
-            const tbody = this.table.querySelector('tbody');
-            tbody.innerHTML = "";
-
+            console.log(totalRevenue, totalCount, revenue);
             this.totalRevenue.innerHTML = `Total revenue: $${totalRevenue.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')}`;
             this.totalOrder.innerHTML = `Total orders: ${totalCount}`;
+
+            const tbody = this.table.querySelector('tbody');
+            tbody.innerHTML = "";
 
             if (revenue.length) {
                 if (this.chart) {
@@ -80,12 +84,12 @@ export default class RevenueReportController {
                     series: [
                         {
                             name: 'Revenue',
-                            data: revenue.map(record => record.totalAmount),
+                            data: revenue.map(record => record.totalRevenue),
                         },
                     ],
                     chart: {
                         height: 350,
-                        type: 'line',
+                        type: 'bar',
                         zoom: {
                             enabled: false,
                         },
@@ -95,7 +99,8 @@ export default class RevenueReportController {
                         fontFamily: themeConfig.theme.fontFamily.sans,
                     },
                     dataLabels: {
-                        enabled: false,
+                        enabled: true,
+
                     },
                     stroke: {
                         width: 2,
@@ -109,15 +114,24 @@ export default class RevenueReportController {
                         borderColor: theme === 'dark' ? colors.slate['600'] : colors.slate['200'],
                     },
                     xaxis: {
-                        categories: revenue.map(record => {
-                            const [start, end] = record.timeGroup.split(" to ");
-                            return start === end ? start.toString() : record.timeGroup.toString();
-                        }),
+                        categories: revenue.map(record => `${record.productName} (ID: ${record.productId})`), // Nhãn kết hợp productName và productId
                         axisBorder: {
                             color: theme === 'dark' ? colors.slate['600'] : colors.slate['200'],
                         },
                         axisTicks: {
                             color: theme === 'dark' ? colors.slate['600'] : colors.slate['200'],
+                        },
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'Revenue',
+                        },
+                    },
+                    tooltip: {
+                        y: {
+                            formatter: function (val) {
+                                return `$${val.toFixed(2)}`;
+                            },
                         },
                     },
                 });
@@ -132,7 +146,11 @@ export default class RevenueReportController {
                     tbody.innerHTML += `
                     <tr>
                         <td>${timeGroup}</td>
-                        <td>$${record.totalAmount.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')}</td>
+                        <td>${record.productId}</td>
+                        <td>${record.productName}</td>
+                        <td>${record.orderCount}</td>
+                        <td>${record.totalQuantity}</td>
+                        <td>$${record.totalRevenue.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')}</td>
                     </tr>
                 `;
                 });
