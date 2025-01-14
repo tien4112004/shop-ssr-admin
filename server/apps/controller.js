@@ -12,6 +12,18 @@ export default {
     res.render('pages/user-list');
   },
 
+  getRevenueReport: (req, res) => {
+    res.render('pages/revenue-report');
+  },
+
+  getAdminProfile: (req, res) => {
+    res.render('pages/admin-profile');
+  },
+
+  getTopRevenueReportByProduct: (req, res) => {
+    res.render('pages/top-revenue-report');
+  },
+
   getProfile: (req, res) => {
     const { id } = req.query;
     if (!id) {

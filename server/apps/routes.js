@@ -18,6 +18,16 @@ router.get("/user-list", controller.getUserList);
 
 router.get("/admin-profile", controller.getAdminProfile);
 
+router.get(
+    '/revenue-report',
+    controller.getRevenueReport
+);
+
+router.get(
+    '/top-revenue-report',
+    controller.getTopRevenueReportByProduct
+);
+
 router.get("/profile", controller.getProfile);
 
 router.get("/product-list", controller.getProductListPage);

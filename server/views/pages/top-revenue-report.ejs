@@ -1,0 +1,74 @@
+<%- contentFor('body') %>
+
+<!-- Main Content Starts -->
+<main class="container flex-grow p-4 sm:p-6">
+    <!-- info -->
+    <div class="col-span-9 shadow rounded px-6 pt-5 pb-7">
+        <h1 class="text-2xl uppercase font-medium">Top Revenue Report by Product</h1>
+        <div>
+            <form id="filter-form">
+                <div class="mt-8 dropdown-list-item">
+                    <label for="time-range">Time range:</label>
+                    <select id="time-range" name="sortBy" class="mb-2 user-type select">
+                        <option value="day">Day</option>
+                        <option value="week">Week</option>
+                        <option value="month">Month</option>
+                    </select>
+                </div>
+
+                <label for="start-date">Start Date:</label>
+                <input id="start-date" class="mb-2 input input-date" type="text" placeholder="Start date"/>
+
+                <label for="end-date">End Date:</label>
+                <input id="end-date" class="mb-2 input input-date" type="text" placeholder="End date"/>
+
+                <label for="sort-by">Sort By:</label>
+                <select id="sort-by" name="sortBy" class="mb-2 user-type select">
+                    <option value="totalRevenue">Revenue</option>
+                    <option value="timeGroup">Time</option>
+                    <option value="orderCount">Total Order</option>
+                    <option value="totalQuantity">Total Quantity</option>
+                </select>
+
+                <label for="order">Order:</label>
+                <select id="order" name="sortBy" class="mb-2 user-type select">
+                    <option value="desc">Descending</option>
+                    <option value="asc">Ascending</option>
+                </select>
+
+                <button type="submit" class="w-full btn btn-primary">Filter</button>
+            </form>
+            <div class="flex justify-between mt-8">
+                <div>
+                    <p id="total-revenue"></p>
+                    <p id="total-order"></p>
+                </div>
+            </div>
+
+            <div class="mt-4" id="table-chart-dev">
+                <table id="revenue-table" class="table mt-12">
+                    <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Total Order</th>
+                        <th>Total Quantity</th>
+                        <th>Total Revenue</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- Data will be inserted here -->
+                    </tbody>
+                </table>
+
+                <!--canvas id="revenue-chart" width="400" height="200"></canvas-->
+                <div id="column-chart"></div>
+
+            </div>
+        </div>
+        <!-- ./info -->
+    </div>
+</main>
+<!-- ./account wrapper -->
+<script type="module" src="<%= getAssetUrl('js/pages/top-revenue-report.js') %>"></script>
