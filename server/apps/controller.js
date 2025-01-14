@@ -24,18 +24,32 @@ export default {
     res.render('pages/top-revenue-report');
   },
 
-  /**
-   * 
-   * @param {Express.Request} req 
-   * @param {Express.Response} res 
-   * @returns 
-   */
   getProfile: (req, res) => {
     const { id } = req.query;
     if (!id) {
       return res.redirect('/404-error');
     }
     res.render('pages/profile');
+  },
+
+  getAdminProfile: (req, res) => {
+    res.render('pages/admin-profile');
+  },
+
+  getProductListPage: (req, res) => {
+    res.render('pages/product-list');
+  },
+
+  getProductEditPage: (req, res) => {
+    res.render('pages/product-edit');
+  },
+
+  getOrderListPage: (req, res) => {
+    res.render('pages/order-list');
+  },
+
+  getOrderEditPage: (req, res) => {
+    res.render('pages/order-details');
   },
 
   getNotFound: (req, res) => {

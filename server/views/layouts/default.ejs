@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./images/logo-small.svg" type="image/svg+xml" />
-    <title>Analytics - Admin Toolkit</title>
+    <title>Administration</title>
     <meta
       name="description"
       content="Admin Toolkit is a modern admin dashboard template based on Tailwindcss. It comes with a variety of useful ui components and pre-built pages"
@@ -69,7 +69,7 @@
         <ul class="sidebar-content">
           <!-- Dashboard -->
           <li>
-            <a href="javascript:void(0);" class="sidebar-menu active">
+            <a href="javascript:void(0);" class="sidebar-menu dashboard-sidebar <%= path == '/' ? 'active' : '' %>">
               <span class="sidebar-menu-icon">
                 <i data-feather="home"></i>
               </span>
@@ -80,7 +80,7 @@
             </a>
             <ul class="sidebar-submenu">
               <li>
-                <a href="/" class="sidebar-submenu-item active">Analytics</a>
+                <a href="/" class="sidebar-submenu-item <%= path == '/' ? 'active' : '' %>">Analytics</a>
               </li>
               <li>
                 <a href="./ecommerce" class="sidebar-submenu-item">Ecommerce</a>
@@ -140,7 +140,7 @@
           </li>
           <!-- ecommnerce -->
           <li>
-            <a href="javascript:void(0);" class="sidebar-menu">
+            <a href="javascript:void(0);" class="sidebar-menu <%= ['/product-list', '/order-list', '/order-details'].includes(path) ? 'active' : '' %>">
               <span class="sidebar-menu-icon">
                 <i data-feather="shopping-bag"></i>
               </span>
@@ -151,26 +151,16 @@
             </a>
             <ul class="sidebar-submenu">
               <li>
-                <a href="./product-list" class="sidebar-submenu-item"> Product List </a>
-              </li>
-
-              <li>
-                <a href="./product-edit" class="sidebar-submenu-item"> Product Edit </a>
+                <a href="./product-list" class="sidebar-submenu-item <%= path == '/product-list' ? 'active' : '' %>"> Product List </a>
               </li>
               <li>
-                <a href="./order-list" class="sidebar-submenu-item"> Order List </a>
-              </li>
-              <li>
-                <a href="./order-details" class="sidebar-submenu-item"> Order Details </a>
-              </li>
-              <li>
-                <a href="./customer-list" class="sidebar-submenu-item"> Customer List </a>
+                <a href="./order-list" class="sidebar-submenu-item <%= path == '/order-list' || path === '/order-details' ? 'active' : '' %>"> Order List </a>
               </li>
             </ul>
           </li>
           <!-- Users -->
           <li>
-            <a href="javascript:void(0);" class="sidebar-menu">
+            <a href="javascript:void(0);" class="sidebar-menu <%= path == '/user-list' ? 'active' : '' %>">
               <span class="sidebar-menu-icon">
                 <i data-feather="users"></i>
               </span>
@@ -181,7 +171,7 @@
             </a>
             <ul class="sidebar-submenu">
               <li>
-                <a href="./user-list" class="sidebar-submenu-item">List</a>
+                <a href="./user-list" class="sidebar-submenu-item <%= path == '/user-list' ? 'active' : '' %>">List</a>
               </li>
             </ul>
           </li>

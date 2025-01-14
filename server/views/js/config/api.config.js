@@ -1,4 +1,4 @@
-const API_SERVER = 'http://localhost:3000';
+export const API_SERVER = 'http://localhost:3000';
 
 const USERS_ENDPOINT = `${API_SERVER}/users`;
 

@@ -1,20 +1,57 @@
-
-
 export default class Pagination {
   MAX_PAGES = 7;
 
   /**
    * 
-   * @param {*} count 
-   * @param {*} pageSize 
-   * @param {*} currentPage 
    */
-  constructor(currentPage, totalPages) {
-    this.currentPage = currentPage;
-    this.totalPages = Math.max(totalPages, 1);
+  constructor(parent, onPageChange) {
+    console.log(parent)
+    this.parent = parent;
+    this.currentPage = 1;
+    this.totalPages = 0;
+
+    this.onPageChange = onPageChange;
   }
 
-  toHtml() {
+  setCurrentPage(value) {
+    this.currentPage = value;
+    this.apply();
+  }
+
+  setTotalPages(value) {
+    this.totalPages = value;
+    this.apply();
+  }
+
+  apply() {
+    this.parent.innerHTML = this.#toHtml();
+    
+    document.querySelectorAll('a.pagination-link')
+    .forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        const prevPage = this.currentPage;
+
+        if (link.classList.contains('pagination-link-prev-text')) {
+          this.currentPage -= 1;
+        }
+        else if (link.classList.contains('pagination-link-next-text')) {
+          this.currentPage += 1;
+        }
+        else if (link.classList.contains('pagination-link')) {
+          this.currentPage = parseInt(link.textContent);
+        }
+
+        this.currentPage = Math.max(1, Math.min(this.currentPage, this.totalPages));
+
+        if (prevPage !== this.currentPage)
+          this.onPageChange();
+      });
+    });
+  }
+
+  #toHtml() {
     return this.#toHtmlBasic.totalPages <= this.MAX_PAGES ? this.#toHtmlBasic() : this.#toHtmlMore();
   }
 

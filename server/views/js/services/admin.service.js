@@ -1,4 +1,5 @@
 import { REVENUE_ENDPOINT } from "../config/api.config";
+import { API_SERVER } from "../config/api.config";
 import custom_fetch from "./custom_fetch";
 import Admin from "../interfaces/admin";
 
@@ -11,7 +12,7 @@ export default class AdminService {
   static async getAdminProfile(adminId) {
     const { profile } = await custom_fetch(
       "GET",
-      `${REVENUE_ENDPOINT}/api/admin/${adminId}`
+      `${API_SERVER}/profile/api/admin/${adminId}`
     );
     return profile;
   }
@@ -45,7 +46,7 @@ export default class AdminService {
   static async getAdminList(query) {
     const { count, admins } = await custom_fetch(
       "GET",
-      `${USERS_ENDPOINT}/api`,
+      `${API_SERVER}/api/v1/users`,
       { ...query, admin: true },
       undefined,
       true
@@ -69,7 +70,7 @@ export default class AdminService {
   static async updateAdminProfile(data) {
     const { profile } = await custom_fetch(
       "PATCH",
-      `${PROFILE_ENDPOINT}/api/admin`,
+      `${API_SERVER}/profile/api/admin`,
       undefined,
       data,
       true

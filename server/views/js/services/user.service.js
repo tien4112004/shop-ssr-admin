@@ -1,4 +1,4 @@
-import {USERS_ENDPOINT} from '../config/api.config.js';
+import { API_SERVER } from '../config/api.config.js';
 import custom_fetch from './custom_fetch.js';
 
 import User from '../interfaces/user.js';
@@ -23,7 +23,7 @@ class UserService {
    * }>}
    */
   static async getUsers(query) {
-    const { count, users } = await custom_fetch('GET', `${USERS_ENDPOINT}/api`, query, undefined, true);
+    const { count, users } = await custom_fetch('GET', `${API_SERVER}/api/v1/users`, query, undefined, true);
     return { count, users };
   }
 
@@ -33,12 +33,12 @@ class UserService {
    * @returns {Promise<User>}
    */
   static async getUserById(id) {
-    const { user } = await custom_fetch('GET', `${USERS_ENDPOINT}/api/${id}`, undefined, undefined, true);
+    const { user } = await custom_fetch('GET', `${API_SERVER}/api/v1/users/${id}`, undefined, undefined, true);
     return user;
   }
 
   static async changeUserStatus(userId, status) {
-    await custom_fetch('PATCH', `${USERS_ENDPOINT}/api/${userId}`, undefined, { status }, true);
+    await custom_fetch('PATCH', `${API_SERVER}/api/v1/users/${userId}`, undefined, { status }, true);
   }
 }
 

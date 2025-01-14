@@ -1,4 +1,4 @@
-import { ACCESS_ENDPOINT } from "../config/api.config";
+import { API_SERVER } from "../config/api.config";
 import custom_fetch from "./custom_fetch";
 
 import { jwtDecode } from "jwt-decode";
@@ -13,7 +13,7 @@ export default class AccessService {
   static async login(username, password) {
     const { token, profile } = await custom_fetch(
       "POST",
-      `${ACCESS_ENDPOINT}/api/admin/login`,
+      `${API_SERVER}/api/v1/access/admin/login`,
       undefined,
       { username, password },
       false

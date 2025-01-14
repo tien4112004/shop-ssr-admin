@@ -1,0 +1,133 @@
+
+<%- contentFor('body') %>
+
+<!-- Main Content Starts -->
+<main class="container flex-grow p-4 sm:p-6">
+  <!-- Order Details Header Start -->
+  <div class="flex items-center justify-between">
+    <div class="flex flex-col gap-1">
+      <div>
+        <a
+          class="flex items-center gap-0 text-slate-400 transition duration-150 ease-in-out hover:text-primary-500"
+          href="/order-list"
+        >
+          <i class="m-0 h-4 w-4 p-0" data-feather="chevron-left"></i>
+          <p class="text-xs">Orders</p>
+        </a>
+
+        <div class="flex items-center gap-1">
+          <h2 class="order-id order-idtext-xl font-semibold">not imp (a)</h2>
+          <div class="order-status badge badge-soft-primary">Not imp (b)</div>
+        </div>
+      </div>
+
+      <!-- Date -->
+      <div class="flex items-center gap-1">
+        <i class="h-4 w-6 text-slate-400" data-feather="calendar"></i>
+        <span class="order-date text-xs text-slate-400">Fri 04 Mar 2023, 06:15 PM</span>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropdown-toggle btn btn-primary flex gap-2">
+        Actions <i class="w-4" data-feather="chevron-down"></i>
+      </button>
+      <div class="dropdown-content w-[200px]">
+        <ul class="actions dropdown-list">
+          <li class="dropdown-list-item">
+            <button class="dropdown-link gap-4" id="CONFIRMED">Confirm</button>
+          </li>
+          <li class="dropdown-list-item">
+            <button class="dropdown-link gap-4" id="CANCELLED">Cancel</button>
+          </li>
+          <li class="dropdown-list-item">
+            <button class="dropdown-link gap-4" id="SHIPPING">Mark as Shipping</button>
+          </li>
+          <li class="dropdown-list-item">
+            <button class="dropdown-link gap-4" id="DELIVERED">
+              Mark as Shipped
+            </button>
+          </li>
+          <li class="dropdown-list-item">
+            <button class="dropdown-link gap-4" id="PAID">Mark as paid</button>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Order Details Header End -->
+
+  <!-- Order Details Start  -->
+  <div class="my-4 grid grid-cols-1 place-content-start gap-6 lg:grid-cols-3">
+    <div class="col-span-1 flex flex-col gap-4 lg:col-span-2">
+      <div class="card my-2">
+        <div class="table-responsive">
+          <div class="min-w-[35rem]">
+            <table class="product-list table shadow-none">
+              <thead>
+                <tr>
+                  <th>Product Name</th>
+                  <th>
+                    <p class="text-right uppercase">Price</p>
+                  </th>
+                  <th>
+                    <p class="text-right uppercase">Qty</p>
+                  </th>
+                  <th>
+                    <p class="text-right uppercase">Line Total</p>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+              
+
+              </tbody>
+            </table>
+
+            <div class="border-b border-slate-200 dark:border-slate-600"></div>
+            <div class="my-2 flex items-center justify-between">
+              <div class="w-2/3 px-6 pb-2">
+                <div class="flex flex-col gap-1 py-4">
+                  <p class="text-sm font-semibold text-slate-700 dark:text-slate-300">Payment Method: </p> <p class="payment-method">COD/VNPAY</p>
+                </div>
+                <p class="m-0 p-0 text-sm font-semibold text-slate-700 dark:text-slate-300">Note:</p>
+                <blockquote class="text-sm font-normal text-slate-600 dark:text-slate-300">
+                  It was a pleasure working with you and your team.
+                  <br />
+                  We hope you will keep us in mind for future projects.
+                </blockquote>
+              </div>
+              <div class="my-1 flex w-1/3 flex-col items-end">
+                <div
+                  class="flex w-full flex-col items-end gap-2 border-b border-slate-200 py-2 pr-6 dark:border-slate-600"
+                >
+                  <h4 class="text-sm font-medium text-slate-400 dark:text-slate-400">
+                    Subtotal:
+                    <span class="subtotal font-semibold text-slate-700 dark:text-slate-200">$72.00</span>
+                  </h4>
+                  <h4 class="text-sm font-medium text-slate-400 dark:text-slate-400">
+                    Shipping:
+                    <span class="shipping font-semibold text-slate-700 dark:text-slate-200">$00.00</span>
+                  </h4>
+                </div>
+                <h4 class="my-2 pr-6 text-sm font-medium text-slate-400 dark:text-slate-500">
+                  Total:
+                  <span class="total font-semibold text-slate-700 dark:text-slate-200">$74.00</span>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  <div class="address-profile h-full py-2 lg:col-span-1"> 
+  </div>
+    
+  </div>
+  <!-- Order Details End  -->
+</main>
+<!-- Main Content Ends -->
+
+<script type="module" src="<%= getAssetUrl('js/pages/order-details.js') %>"></script>
