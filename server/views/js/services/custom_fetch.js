@@ -1,5 +1,5 @@
 
-export default async function(method, endpoint, query, body, auth) {
+export default async function(method, endpoint, query, body, auth = true) {
   const token = localStorage.getItem('token');
   if (auth && !token) {
     throw new Error('Please login to proceed');

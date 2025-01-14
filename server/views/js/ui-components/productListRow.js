@@ -24,16 +24,19 @@ class ProductListRow {
           alt="product"
         />
         <div>
-          <h6 class="whitespace-nowrap text-sm font-medium text-slate-700 dark:text-slate-100">
-            ${this.product.productName}
-          </h6>
-          <p class="truncate text-xs text-slate-500 dark:text-slate-400">${this.product.category.categoryName}</p>
+          <a href='/product-edit?id=${this.product.productId}'>
+            <h6 class="whitespace-nowrap text-sm font-medium text-slate-700 dark:text-slate-100">
+              ${this.product.productName}
+            </h6>
+            <p class="truncate text-xs text-slate-500 dark:text-slate-400">${this.product.category.categoryName}</p>
+          </a>
         </div>
       </div>
     </td>
     <td>$${this.product.currentPrice.toFixed(2)}</td>
     <td>${this.product.stock} pcs</td>
-    <td>${new Date(this.product.publishedAt).toLocaleDateString('en-US', {day: 'numeric', month: 'short', year: 'numeric'})}</td>
+    <td>${this.product.soldQuantity} pcs</td>
+    <td>${new Date(this.product.publishedAt).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })}</td>
     <td>
       <div class="badge badge-soft-success">${this.product.status}</div>
     </td>

@@ -102,7 +102,7 @@ export default class ProductListController {
   async loadProducts() {
     const [sortField, sortOrder] = this.selectSort.value.split("_");
     const query = {
-      keywod: this.searchProduct.value || undefined,
+      searchTerm: this.searchProduct.value || undefined,
       categories: this.selectCategory.value  || undefined,
       brands: this.selectBrand.value || undefined,
       status: this.selectStatus.value || undefined,

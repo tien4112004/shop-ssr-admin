@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 import cors from 'cors';
 import morgan from 'morgan';
+import helmet from 'helmet';
 
 import expressLayouts from 'express-ejs-layouts';
 
@@ -20,6 +21,15 @@ const isDev = !!process.argv.find((v) => v === 'NODE_ENV=development');
 // middlewares
 app.use(morgan('dev'));
 app.use(cors());
+// app.use(helmet());
+// app.use(
+//   helmet.contentSecurityPolicy({
+//     directives: {
+//       defaultSrc: ["'self'"],
+//       imgSrc: ["'self'", 'data:', 'https://res.cloudinary.com'],
+//     },
+//   }),
+// );
 app.use(express.json());
 
 // static files

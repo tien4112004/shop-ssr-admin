@@ -50,9 +50,54 @@ export default class ProductService {
     return { count, products };
   }
 
-  static async postProduct(product) {}
+  static async getProductById(id) {
+    const { product } = await custom_fetch(
+      "GET",
+      `${API_SERVER}/api/v1/products/${id}`,
+      undefined,
+      undefined,
+      true
+    )
+    return product;
+  }
 
-  static async updProduct(data) {}
+  static async postProduct(productFormData) {
+    const response = await fetch(
+      `${API_SERVER}/api/v1/products`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('token')}`
+        },
+        body: productFormData
+      }
+    )
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.message);
+    }
 
-  static async updProductStatus(id, status) {}
+    return data.metadata?.product;
+  }
+
+  static async updProduct(productId, productFormData) {
+    const response = await fetch(
+      `${API_SERVER}/api/v1/products/${productId}`, {
+        method: 'PATCH',
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('token')}`
+        },
+        body: productFormData
+      }
+    )
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.message);
+    }
+
+    return data.metadata?.product;
+  }
+
+  static async updProductStatus(id, status) {
+    throw new Error("Method not implemented.");
+  }
 }
