@@ -45,7 +45,7 @@ app.use(expressLayouts);
 let manifest = {};
 if (!isDev) {
   try {
-    manifest = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, 'public/assets/manifest.json'), 'utf-8'));
+    manifest = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, 'public/manifest.json'), 'utf-8'));
   } catch (err) {
     console.log(err);
     console.error('No manifest file found');
@@ -57,7 +57,7 @@ function getAssetUrl(filename) {
   if (isDev) {
     return `http://localhost:5173/${filename}`;
   }
-  return `/assets/${manifest[filename].file}`;
+  return `/${manifest[filename].file}`;
 }
 
 app.use((req, res, next) => {

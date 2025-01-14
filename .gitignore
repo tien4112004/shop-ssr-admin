@@ -2,6 +2,12 @@
 server/public/assets/js
 server/public/assets/manifest.json
 
+server/public/css
+server/public/js
+server/public/fonts
+server/public/svg
+server/public/manifest.json
+
 # Logs
 logs
 *.log

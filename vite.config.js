@@ -15,7 +15,7 @@ export default defineConfig({
   },
   build: {
     // Output directory for built files
-    outDir: resolve(__dirname, 'server/public/assets'),
+    outDir: resolve(__dirname, 'server/public'),
     
     // Generate manifest.json for server-side import
     manifest: true,
@@ -37,7 +37,7 @@ export default defineConfig({
           .filter(file => file.endsWith('.js'))
           .map(file => [file.replace('.js', ''), resolve(__dirname, 'server/views/js/pages', file)])
         ),
-        // style: resolve(__dirname, 'server/views/css/app.css')
+        style: resolve(__dirname, 'server/views/css/app.css')
       },
       output: {
         // // Ensure clean asset file names
@@ -45,6 +45,8 @@ export default defineConfig({
         // chunkFileNames: 'js/[name]-[hash].js',
         // assetFileNames: '[ext]/[name]-[hash].[ext]',
 
+        entryFileNames: 'js/[name]-[hash].js',
+        chunkFileNames: 'js/[name]-[hash].js',
         assetFileNames: (chunkInfo) => {
           let outDir = '';
 
@@ -85,8 +87,6 @@ export default defineConfig({
 
           return `${outDir}/[name][extname]`;
         },
-        chunkFileNames: 'js/[name]-[hash].js',
-        entryFileNames: 'js/[name]-[hash].js',
       }
     }
   },

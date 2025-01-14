@@ -42,6 +42,7 @@ export default class OrderDetailController {
    * @param {Order} order 
    */
   fillData(order) {
+    console.log(order);
     this.orderIdTag.textContent = 'Order#'+order.orderId;
     this.orderStatus.textContent = order.orderStatus;
     this.orderDate.textContent = new Date(order.createdAt).toLocaleString();
