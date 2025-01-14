@@ -29,12 +29,22 @@ export default class AdminService {
   static async getTopRevenueReportByProduct(startDate, endDate, page=1, pageSize=10, sortBy='createdAt', order='desc', timeRange='day') {
     const {totalRevenue, totalCount, revenue} = await custom_fetch(
         "GET",
-        `${REVENUE_ENDPOINT}/api/topRevenueReportByProduct?startDate=${startDate}&endDate=${endDate}&page=${page}&pageSize=${pageSize}&sortBy=${sortBy}&order=${order}&timeRange=${timeRange}`
+        `${REVENUE_ENDPOINT}/api/topRevenueReportByProduct?startDate=${startDate}&endDate=${endDate}&page=${page}&pageSize=${pageSize}&sortBy=${sortBy}&order=${order}&timeRange=${timeRange}`,
     );
     console.log(totalRevenue, totalCount, revenue);
     return {totalRevenue, totalCount, revenue};
   }
 
+  static async getUserStatistic(startDate, endDate, page=1, pageSize=10, sortBy='createdAt', order='desc', timeRange='day') {
+    const {newUserCount, userStatistic} = await custom_fetch(
+        "GET",
+        `${REVENUE_ENDPOINT}/api/user-statistic?startDate=${startDate}&endDate=${endDate}&page=${page}&pageSize=${pageSize}&sortBy=${sortBy}&order=${order}&timeRange=${timeRange}`,
+        undefined,
+        undefined,
+        true
+    );
+    return {newUserCount, userStatistic};
+  }
 
   /**
    * @param {{

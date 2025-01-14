@@ -16,8 +16,8 @@ export default {
     res.render('pages/revenue-report');
   },
 
-  getAdminProfile: (req, res) => {
-    res.render('pages/admin-profile');
+  getUserStatistic: (req, res) => {
+    res.render('pages/user-statistic');
   },
 
   getTopRevenueReportByProduct: (req, res) => {
